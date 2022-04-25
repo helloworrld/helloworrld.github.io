@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Updock&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif; }
+
+.container {
+  width: 1140px;
+  margin: 0 auto; }
+  .container .categories {
+    position: relative;
+    background-color: #000; }
+    .container .categories .title {
+      padding: .5em 0; }
+      .container .categories .title h1 {
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Updock', cursive;
+        color: #fec524; }
+    .container .categories .lang-menu {
+      width: 40px;
+      position: absolute;
+      right: 10px;
+      top: 63px;
+      font-size: .8rem;
+      font-weight: bold; }
+      .container .categories .lang-menu .selected-lang {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff; }
+        .container .categories .lang-menu .selected-lang::before {
+          content: '';
+          display: block;
+          width: 20px;
+          height: 13px;
+          background-image: url("../images/tr.png"); }
+      .container .categories .lang-menu ul {
+        background-color: #eee;
+        border: 1px solid #000;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        padding: 5px;
+        border-radius: 3px;
+        width: 65px;
+        display: none;
+        position: absolute;
+        right: 3px; }
+        .container .categories .lang-menu ul.active {
+          display: block; }
+        .container .categories .lang-menu ul .en::before {
+          background-image: url("../images/gb.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .lang-menu ul .de::before {
+          background-image: url("../images/de.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .lang-menu ul .fr::before {
+          background-image: url("../images/fr.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .lang-menu ul .es::before {
+          background-image: url("../images/es.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .lang-menu ul .ru::before {
+          background-image: url("../images/ru.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .lang-menu ul .kp::before {
+          background-image: url("../images/kr.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .lang-menu ul .cn::before {
+          background-image: url("../images/cn.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .lang-menu ul li {
+          list-style-type: square;
+          display: flex;
+          flex-direction: row;
+          align-items: center; }
+        .container .categories .lang-menu ul li a {
+          text-decoration: none;
+          color: #000;
+          display: block;
+          line-height: 1.5;
+          padding: 4px; }
+          .container .categories .lang-menu ul li a::before {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 13px;
+            background-image: url("../images/tr.png");
+            margin-right: 5px;
+            vertical-align: middle; }
+    .container .categories .categories-container {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(2, minmax(auto, 1fr));
+      padding: 10px; }
+      .container .categories .categories-container .grid-item {
+        text-align: center;
+        border: 2px solid #fec524;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-shadow: 1px 2px #000;
+        padding: 20px 0;
+        width: 100%; }
+        .container .categories .categories-container .grid-item.grill {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/categoryImg/grill.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .categories-container .grid-item.starters {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/categoryImg/starter.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .categories-container .grid-item.fish {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/categoryImg/fish.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .categories-container .grid-item.omlette {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/categoryImg/omlette.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .categories-container .grid-item.pasta {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/categoryImg/pasta.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .categories-container .grid-item.salads {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/categoryImg/salad.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .categories-container .grid-item.sweet {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/categoryImg/delights.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .categories-container .grid-item.beers {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/categoryImg/beer.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .categories-container .grid-item.local-drinks {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/categoryImg/raki.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .categories-container .grid-item.import-drinks {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/categoryImg/importdrinks.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .categories-container .grid-item.mixes {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/categoryImg/mixes.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .categories-container .grid-item.cold-drinks {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/categoryImg/drinks.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .categories-container .grid-item.hot-drinks {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/categoryImg/coffee.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+        .container .categories .categories-container .grid-item.coctails {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/categoryImg/coctails.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+  .container footer {
+    padding: 30px 0;
+    background-color: #0a0908;
+    color: #fff; }
+    .container footer h4 {
+      text-align: center;
+      color: #fec524; }
+    .container footer ul {
+      padding-top: 30px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center; }
+      .container footer ul li {
+        list-style-type: none; }
+        .container footer ul li a {
+          text-decoration: none;
+          color: #fec524;
+          margin: 20px; }
+          .container footer ul li a i {
+            margin-right: 5px; }
+
+.menu-items {
+  background-color: #000;
+  width: 1140px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, minmax(auto, 1fr));
+  padding: 50px; }
+  .menu-items .flex-container {
+    display: flex;
+    border: 3px solid #fec524;
+    border-radius: 15px; }
+    .menu-items .flex-container .img-container {
+      width: 100px;
+      height: 100px;
+      margin-right: 15px; }
+    .menu-items .flex-container .menu-info {
+      width: 385px; }
+    .menu-items .flex-container .menu-title {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 5px;
+      border-bottom: 2px solid #fec524;
+      color: #fec524;
+      margin-top: 5px; }
+      .menu-items .flex-container .menu-title h4 {
+        font-size: 1.3rem; }
+      .menu-items .flex-container .menu-title .price {
+        margin-right: 5px; }
+    .menu-items .flex-container img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-right: 20px;
+      border-radius: 10px;
+      border: 3px solid #000;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .menu-items .flex-container .menu-text {
+      margin-top: 10px;
+      color: #eee; }
+
+@media (max-width: 428px) {
+  .categories {
+    padding-bottom: 15px; }
+  .grid-item {
+    min-height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .categories-container {
+    font-size: 4rem; }
+  .menu-items {
+    grid-template-columns: auto;
+    width: auto;
+    padding: 30px 10px; }
+    .menu-items .menu-items {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .menu-items .flex-container {
+      min-width: 345px; }
+      .menu-items .flex-container .img-container {
+        margin-right: 5px; }
+      .menu-items .flex-container .menu-info {
+        width: 390px; }
+        .menu-items .flex-container .menu-info .menu-text {
+          font-size: .8rem; }
+        .menu-items .flex-container .menu-info .menu-title {
+          width: auto;
+          margin-right: 5px; }
+          .menu-items .flex-container .menu-info .menu-title h4 {
+            font-size: 1.1rem; }
+  footer ul {
+    padding-top: 10px !important;
+    flex-direction: column !important; }
+    footer ul li {
+      padding-top: 10px; } }

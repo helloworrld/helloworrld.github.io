@@ -1,0 +1,19 @@
+{
+  "name": "kayasrestaurantbar",
+  "version": "1.0.0",
+  "description": "Kayas Restaurant Bar QR Menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "keywords": [
+    "QR",
+    "Menu",
+    "Restaurant"
+  ],
+  "author": "Murat Can Pekeroglu",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
