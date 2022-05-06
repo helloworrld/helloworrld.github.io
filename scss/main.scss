@@ -35,7 +35,7 @@ body {
             width: 40px;
             position: absolute;
             right: 10px;
-            top: 63px;
+            top: 70px;
             font-size: .8rem;
             font-weight: bold;
             .selected-lang {
@@ -121,7 +121,7 @@ body {
             display: grid;
             grid-gap: 10px;
             grid-template-columns: repeat(2, minmax(auto, 1fr));
-            padding: 10px;
+            padding: 30px 10px;
             .grid-item {
                 text-align: center;
                 border: 2px solid #fec524;
@@ -282,6 +282,7 @@ body {
     }
     .grid-item {
         min-height: 92px;
+        max-height: 92px;
         display: flex;
         align-items: center;
         justify-content: center;

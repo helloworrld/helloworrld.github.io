@@ -1069,7 +1069,6 @@ const coctails = document.querySelector('.coctails');
 const coldDrinks = document.querySelector('.cold-drinks');
 const hotDrinks = document.querySelector('.hot-drinks');
 
-window.addEventListener('load', getAll)
 grill.addEventListener('click', getGrill);
 starters.addEventListener('click', getStarters);
 fish.addEventListener('click', getFish);
@@ -1088,26 +1087,6 @@ hotDrinks.addEventListener('click', getHotDrinks);
 
 
 //FUNCTIONS
-
-function getAll() {
-    listItems = menu.map(item => {
-        menuItems.innerHTML += 
-        `
-        <div class = 'flex-container'>
-        <div class = 'img-container'>
-        <img src=${item.img} alt=${item.title}>
-        </div>
-        <div class='menu-info'>
-        <div class='menu-title'>
-        <h4>${item.title}</h4>
-        <h4 class='price'>${item.price}₺</h4>
-        </div>
-        <div class='menu-text'>${item.desc}</div>
-        </div>
-        </div>
-        `
-    });
-}
 
 function getGrill() {
     menuItems.innerHTML = '';

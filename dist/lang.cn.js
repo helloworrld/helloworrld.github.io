@@ -1069,7 +1069,6 @@ const coctails = document.querySelector('.coctails');
 const coldDrinks = document.querySelector('.cold-drinks');
 const hotDrinks = document.querySelector('.hot-drinks');
 
-window.addEventListener('load', getAll)
 grill.addEventListener('click', getGrill);
 starters.addEventListener('click', getStarters);
 fish.addEventListener('click', getFish);

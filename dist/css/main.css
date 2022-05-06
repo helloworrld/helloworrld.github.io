@@ -28,7 +28,7 @@ body {
       width: 40px;
       position: absolute;
       right: 10px;
-      top: 63px;
+      top: 70px;
       font-size: .8rem;
       font-weight: bold; }
       .container .categories .lang-menu .selected-lang {
@@ -113,7 +113,7 @@ body {
       display: grid;
       grid-gap: 10px;
       grid-template-columns: repeat(2, minmax(auto, 1fr));
-      padding: 10px; }
+      padding: 30px 10px; }
       .container .categories .categories-container .grid-item {
         text-align: center;
         border: 2px solid #fec524;
@@ -263,6 +263,7 @@ body {
     padding-bottom: 15px; }
   .grid-item {
     min-height: 92px;
+    max-height: 92px;
     display: flex;
     align-items: center;
     justify-content: center; }
