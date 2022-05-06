@@ -1362,3 +1362,20 @@ function urlHandler(value) {
     window.location.assign(`${value}`);
 }
 
+
+
+//SCROLL
+
+const gridItem = document.querySelectorAll('.grid-item');
+const categoriesContainer = document.querySelector('.categories-container');
+for(let i = 0; i < gridItem.length; i++){
+    gridItem[i].addEventListener('click', scroll);
+}
+
+function scroll(){
+    console.log('Denemeee');
+    window.scrollTo({
+        top: 800,
+        behavior: 'smooth'
+    });
+}

@@ -18,7 +18,7 @@ body {
     position: relative;
     background-color: #000; }
     .container .categories .title {
-      padding: .5em 0; }
+      padding: 10px 0; }
       .container .categories .title h1 {
         text-align: center;
         font-size: 3rem;
@@ -113,7 +113,7 @@ body {
       display: grid;
       grid-gap: 10px;
       grid-template-columns: repeat(2, minmax(auto, 1fr));
-      padding: 30px 10px; }
+      padding: 10px 10px; }
       .container .categories .categories-container .grid-item {
         text-align: center;
         border: 2px solid #fec524;
@@ -222,7 +222,7 @@ body {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(2, minmax(auto, 1fr));
-  padding: 50px; }
+  padding: 0 10px; }
   .menu-items .flex-container {
     display: flex;
     border: 3px solid #fec524;
@@ -272,7 +272,7 @@ body {
   .menu-items {
     grid-template-columns: auto;
     width: auto;
-    padding: 30px 10px; }
+    padding: 0 10px; }
     .menu-items .menu-items {
       display: flex;
       align-items: center;
