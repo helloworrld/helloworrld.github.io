@@ -1032,28 +1032,18 @@ const menu = [
         desc: 'Sebze ve pilav ile birlikte antrikot'
     },
 ];
-
-
-
 const menuItems = document.querySelector('.menu-items');
-
-
 let allCategory = menu.map(item => {
     return item.category;
 });
-
 let categoryCount = allCategory.reduce((acc,item) => {
     if(!acc.includes(item)){
         acc.push(item);
     }
     return acc;
 }, []);
-
 categories = ["All", ...categoryCount]; // Kaldırılacak
-
 window.addEventListener('load', categoryCount);
-
-
 const grill = document.querySelector('.grill');
 const starters = document.querySelector('.starters');
 const fish = document.querySelector('.fish');
@@ -1068,7 +1058,6 @@ const mixes = document.querySelector('.mixes');
 const coctails = document.querySelector('.coctails');
 const coldDrinks = document.querySelector('.cold-drinks');
 const hotDrinks = document.querySelector('.hot-drinks');
-
 grill.addEventListener('click', getGrill);
 starters.addEventListener('click', getStarters);
 fish.addEventListener('click', getFish);
@@ -1083,12 +1072,7 @@ mixes.addEventListener('click', getMixes);
 coctails.addEventListener('click', getCoctails);
 coldDrinks.addEventListener('click', getColdDrinks);
 hotDrinks.addEventListener('click', getHotDrinks);
-
-
-
 //FUNCTIONS
-
-
 function getGrill() {
     menuItems.innerHTML = '';
     let grill = menu.filter(item => item.category === 'grill').map(item => {
@@ -1107,7 +1091,6 @@ function getGrill() {
         `
     });
 }
-
 function getStarters() {
     menuItems.innerHTML = '';
     let starters = menu.filter(item => item.category === 'starters').map(item => {
@@ -1126,7 +1109,6 @@ function getStarters() {
         `
     });
 }
-
 function getFish() {
     menuItems.innerHTML = '';
     let fish = menu.filter(item => item.category === 'fish').map(item => {
@@ -1145,7 +1127,6 @@ function getFish() {
         `
     });
 }
-
 function getOmlette() {
     menuItems.innerHTML = '';
     let omlette = menu.filter(item => item.category === 'omlette').map(item => {
@@ -1164,7 +1145,6 @@ function getOmlette() {
         `
     });
 }
-
 function getPasta() {
     menuItems.innerHTML = '';
     let pasta = menu.filter(item => item.category === 'pasta').map(item => {
@@ -1183,7 +1163,6 @@ function getPasta() {
         `
     });
 }
-
 function getSalads() {
     menuItems.innerHTML = '';
     let salad = menu.filter(item => item.category === 'salad').map(item => {
@@ -1202,7 +1181,6 @@ function getSalads() {
         `
     });
 }
-
 function getSweet() {
     menuItems.innerHTML = '';
     let sweet = menu.filter(item => item.category === 'delight').map(item => {
@@ -1221,7 +1199,6 @@ function getSweet() {
         `
     });
 }
-
 function getBeers() {
     menuItems.innerHTML = '';
     let beers = menu.filter(item => item.category === 'beers').map(item => {
@@ -1240,7 +1217,6 @@ function getBeers() {
         `
     });
 }
-
 function getLocalDrinks() {
     menuItems.innerHTML = '';
     let localDrinks = menu.filter(item => item.category === 'localdrinks').map(item => {
@@ -1259,7 +1235,6 @@ function getLocalDrinks() {
         `
     });
 }
-
 function getImportDrinks() {
     menuItems.innerHTML = '';
     let importDrinks = menu.filter(item => item.category === 'importdrinks').map(item => {
@@ -1278,7 +1253,6 @@ function getImportDrinks() {
         `
     });
 }
-
 function getMixes() {
     menuItems.innerHTML = '';
     let mixes = menu.filter(item => item.category === 'mixed').map(item => {
@@ -1297,7 +1271,6 @@ function getMixes() {
         `
     });
 }
-
 function getCoctails() {
     menuItems.innerHTML = '';
     let coctails = menu.filter(item => item.category === 'coctails').map(item => {
@@ -1316,7 +1289,6 @@ function getCoctails() {
         `
     });
 }
-
 function getColdDrinks() {
     menuItems.innerHTML = '';
     let coldDrinks = menu.filter(item => item.category === 'colddrinks').map(item => {
@@ -1335,7 +1307,6 @@ function getColdDrinks() {
         `
     });
 }
-
 function getHotDrinks() {
     menuItems.innerHTML = '';
     let hotDrinks = menu.filter(item => item.category === 'hotdrinks').map(item => {
@@ -1354,24 +1325,16 @@ function getHotDrinks() {
         `
     });
 }
-//language click event
-
-
 //change language
 function urlHandler(value) {
     window.location.assign(`${value}`);
 }
-
-
-
 //SCROLL
-
 const gridItem = document.querySelectorAll('.grid-item');
 const categoriesContainer = document.querySelector('.categories-container');
 for(let i = 0; i < gridItem.length; i++){
     gridItem[i].addEventListener('click', scroll);
 }
-
 function scroll(){
     console.log('Denemeee');
     window.scrollTo({
