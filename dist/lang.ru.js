@@ -377,7 +377,7 @@ const menu = [
     },
     {
         id:47,
-        title:'Bomonti non Filter',
+        title:'Бомонти без фильтра',
         category: 'beers',
         price: 50,
         img: "./images/beers/bomontifiltresiz.jpg",   
@@ -393,7 +393,7 @@ const menu = [
     },
     {
         id:49,
-        title:'Amsterdam',
+        title:'Амстердам',
         category: 'beers',
         price: 80,
         img: "./images/beers/amsterdam.png", 
@@ -401,7 +401,7 @@ const menu = [
     },
     {
         id:50,
-        title:'Miller',
+        title:'Миллер',
         category: 'beers',
         price: 60,
         img: "./images/beers/miller.jpg",
@@ -409,7 +409,7 @@ const menu = [
     },
     {
         id:51,
-        title:'Becks',
+        title:'Бекс',
         category: 'beers',
         price: 60,
         img: "./images/beers/becks.jpg",
@@ -425,7 +425,7 @@ const menu = [
     },
     {
         id:52,
-        title:'Vodka',
+        title:'Водка',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/votka.jpg",
@@ -433,7 +433,7 @@ const menu = [
     },
     {
         id:53,
-        title:'Gin',
+        title:'Джин',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/cin.jpg",
@@ -441,7 +441,7 @@ const menu = [
     },
     {
         id:54,
-        title:'Brandy',
+        title:'бренди',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/brendi.jpg",
@@ -449,7 +449,7 @@ const menu = [
     },
     {
         id:55,
-        title:'Cognac',
+        title:'коньяк',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/kanyak.jpg",
@@ -457,7 +457,7 @@ const menu = [
     },
     {
         id:56,
-        title:'Liqueur',
+        title:'Ликер',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/likor.jpg",
@@ -465,7 +465,7 @@ const menu = [
     },
     {
         id:57,
-        title:'Absolut',
+        title:'Абсолют',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/absolut.jpg",
@@ -473,7 +473,7 @@ const menu = [
     },
     {
         id:58,
-        title:'Bacardi',
+        title:'Бакарди',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/bacardi.jpg",
@@ -481,7 +481,7 @@ const menu = [
     },
     {
         id:59,
-        title:'Martini',
+        title:'мартини',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/martini.jpg",
@@ -489,7 +489,7 @@ const menu = [
     },
     {
         id:60,
-        title:'Campari',
+        title:'Кампари',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/campari.jpg",
@@ -497,7 +497,7 @@ const menu = [
     },
     {
         id:61,
-        title:'Gordon Gin',
+        title:'Гордон Джин',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/gordoncin.png",
@@ -505,7 +505,7 @@ const menu = [
     },
     {
         id:62,
-        title:'Malibu',
+        title:'Малибу',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/malibu.jpg",
@@ -513,7 +513,7 @@ const menu = [
     },
     {
         id:63,
-        title:'Baileys',
+        title:'Бейлис',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/baileys.jpg",
@@ -529,7 +529,7 @@ const menu = [
     },
     {
         id:65,
-        title:'Kahlua',
+        title:'Калуа',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/kahlua.jpg",
@@ -537,7 +537,7 @@ const menu = [
     },
     {
         id:66,
-        title:'Safari',
+        title:'ликер сафари',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/safari.jpg",
@@ -545,7 +545,7 @@ const menu = [
     },
     {
         id:67,
-        title:'Johnnie Walker',
+        title:'Джонни Уокер',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/johnniewalker.jpg",
@@ -569,7 +569,7 @@ const menu = [
     },
     {
         id:70,
-        title:'Ballentines',
+        title:'Баллантины',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/ballentines.jpg",
@@ -585,7 +585,7 @@ const menu = [
     },
     {
         id:72,
-        title:'Tequila',
+        title:'Текила',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/tequila.jpg",
@@ -593,7 +593,7 @@ const menu = [
     },
     {
         id:73,
-        title:'Bacardi-Cola',
+        title:'Бакарди-Кола',
         category: 'mixed',
         price: 70,
         img: "./images/mixes/bacardi-kola.jpg",
@@ -601,7 +601,7 @@ const menu = [
     },
     {
         id:74,
-        title:'Campari-Orange',
+        title:'Кампари-Оранж',
         category: 'mixed',
         price: 70,
         img: "./images/mixes/campari-orange.jpg",
@@ -609,7 +609,7 @@ const menu = [
     },
     {
         id:75,
-        title:'Whiskey-Soda',
+        title:'Виски-Сода',
         category: 'mixed',
         price: 70,
         img: "./images/mixes/viski-soda.jpg",
@@ -617,7 +617,7 @@ const menu = [
     },
     {
         id:76,
-        title:'Gin-Tonic',
+        title:'Джин Тоник',
         category: 'mixed',
         price: 70,
         img: "./images/mixes/cin-tonik.jpg",
@@ -625,7 +625,7 @@ const menu = [
     },
     {
         id:77,
-        title:'Vodka-Cola',
+        title:'Водка-Кола',
         category: 'mixed',
         price: 70,
         img: "./images/mixes/votka-kola.jpg",
@@ -633,7 +633,7 @@ const menu = [
     },
     {
         id:78,
-        title:'Ginfizz',
+        title:'Гинфизз',
         category: 'mixed',
         price: 70,
         img: "./images/mixes/ginfizz.jpg",
@@ -641,7 +641,7 @@ const menu = [
     },
     {
         id:79,
-        title:'Beer-Cola',
+        title:'пиво-кола',
         category: 'mixed',
         price: 70,
         img: "./images/mixes/bira-kola.jpg",
@@ -649,7 +649,7 @@ const menu = [
     },
     {
         id:80,
-        title:'Pamukkale Senfoni Dry/Trocken',
+        title:'Памуккале Сенфони Драй/Трокен',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -657,7 +657,7 @@ const menu = [
     },
     {
         id:81,
-        title:'Pamukkale Semidry/Halbtrocken',
+        title:'Памуккале Полусухое/Хальбтрокен',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -665,7 +665,7 @@ const menu = [
     },
     {
         id:82,
-        title:'Pamukkale Sweet/Süb',
+        title:'Памуккале Сладкий/Süb',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -673,7 +673,7 @@ const menu = [
     },
     {
         id:83,
-        title:'Pamukkale Anfora Trio',
+        title:'Памуккале Анфора Трио',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -681,7 +681,7 @@ const menu = [
     },
     {
         id:84,
-        title:'Pamukkale Cabernet Sauvignon',
+        title:'Памуккале Каберне Совиньон',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -689,7 +689,7 @@ const menu = [
     },
     {
         id:85,
-        title:'Pamukkale Pinot Chardonnay',
+        title:'Памуккале Пино Шардоне',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/pinotchardonnay.jpg",
@@ -697,7 +697,7 @@ const menu = [
     },
     {
         id:86,
-        title:'Pamukkale Shiraz',
+        title:'Памуккале Шираз',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -705,7 +705,7 @@ const menu = [
     },
     {
         id:87,
-        title:'Coca Cola',
+        title:'Кока-Кола',
         category: 'colddrinks',
         price: 70,
         img: "./images/softdrinks/kola.png",
@@ -713,7 +713,7 @@ const menu = [
     },
     {
         id:88,
-        title:'Fanta',
+        title:'фанта',
         category: 'colddrinks',
         price: 70,
         img: "./images/softdrinks/fanta.jpg",
@@ -721,7 +721,7 @@ const menu = [
     },
     {
         id:89,
-        title:'Sprite',
+        title:'Спрайт',
         category: 'colddrinks',
         price: 70,
         img: "./images/softdrinks/sprite.png",
@@ -737,7 +737,7 @@ const menu = [
     },
     {
         id:91,
-        title:'Redbull',
+        title:'Ред Булл',
         category: 'colddrinks',
         price: 70,
         img: "./images/softdrinks/redbull.jpg",
@@ -745,7 +745,7 @@ const menu = [
     },
     {
         id:92,
-        title:'Schweppes',
+        title:'Швепс',
         category: 'colddrinks',
         price: 70,
         img: "./images/softdrinks/schweppes.jpg",
@@ -817,7 +817,7 @@ const menu = [
     },
     {
         id:101,
-        title:'Nescafe',
+        title:'Нескафе',
         category: 'hotdrinks',
         price: 70,
         img: "./images/hot-drinks/nescafe.jpg",
@@ -825,7 +825,7 @@ const menu = [
     },
     {
         id:102,
-        title:'Cappuccino',
+        title:'Капучино',
         category: 'hotdrinks',
         price: 70,
         img: "./images/hot-drinks/cappuccino.jpg",
@@ -841,7 +841,7 @@ const menu = [
     },
     {
         id:104,
-        title:'Kayaş Коктейль',
+        title:'Кайас Коктейль',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/kayaskokteyl.jpg",
@@ -857,7 +857,7 @@ const menu = [
     },
     {
         id:106,
-        title:'B-52',
+        title:'Б-52',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/b52.jpg",
@@ -865,7 +865,7 @@ const menu = [
     },
     {
         id:107,
-        title:'Sex on the Beach',
+        title:'Секс на пляже',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/sexonthebeach.jpg",
@@ -873,7 +873,7 @@ const menu = [
     },
     {
         id:108,
-        title:'Pine Colada',
+        title:'Пина Колада',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/pinekolada.jpg",
@@ -881,7 +881,7 @@ const menu = [
     },
     {
         id:109,
-        title:'Tequila Sunrise',
+        title:'Текила санрайз',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/tequilasunrise.jpg",
@@ -897,7 +897,7 @@ const menu = [
     },
     {
         id:111,
-        title:'Margarita',
+        title:'Маргарита',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/margarita.jpg",
@@ -905,7 +905,7 @@ const menu = [
     },
     {
         id:112,
-        title:'Whisky Sour',
+        title:'Виски Сауэр',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/whiskeysour.jpg",
@@ -913,7 +913,7 @@ const menu = [
     },
     {
         id:113,
-        title:'La Bomba',
+        title:'Бомба',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/labomba.jpg",
@@ -921,7 +921,7 @@ const menu = [
     },
     {
         id:114,
-        title:'Fantastic',
+        title:'Фантастический',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/fantastic.jpg",
@@ -929,7 +929,7 @@ const menu = [
     },
     {
         id:115,
-        title:'Bloody Mary',
+        title:'Кровавая Мэри',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/bloodymary.jpg",
@@ -937,7 +937,7 @@ const menu = [
     },
     {
         id:116,
-        title:'White Paradise',
+        title:'Белый рай',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/whiteparadise.jpg",
@@ -945,7 +945,7 @@ const menu = [
     },
     {
         id:117,
-        title:'Irish Coffee',
+        title:'Кофе по-ирландски',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/irishcoffee.jpg",
@@ -953,7 +953,7 @@ const menu = [
     },
     {
         id:118,
-        title:'Yeni Raki 20cl',
+        title:'Новая ракы 20cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/yeniraki.jpg",
@@ -961,7 +961,7 @@ const menu = [
     },
     {
         id:119,
-        title:'Yeni Raki 35cl',
+        title:'Новая ракы 35cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/yeniraki.jpg",
@@ -969,7 +969,7 @@ const menu = [
     },
     {
         id:120,
-        title:'Yeni Raki 50cl',
+        title:'Новая ракы 50cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/yeniraki.jpg",
@@ -977,7 +977,7 @@ const menu = [
     },
     {
         id:121,
-        title:'Yeni Raki 70cl',
+        title:'Новая ракы 70cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/yeniraki.jpg",
@@ -985,7 +985,7 @@ const menu = [
     },
     {
         id:122,
-        title:'Yeni Raki 100cl',
+        title:'Новая ракы 100cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/yeniraki.jpg",
@@ -993,7 +993,7 @@ const menu = [
     },
     {
         id:123,
-        title:'Tekirdağ 35cl',
+        title:'Текирдаг 35cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/tekirdag.jpg",
@@ -1001,7 +1001,7 @@ const menu = [
     },
     {
         id:124,
-        title:'Tekirdağ 70cl',
+        title:'Текирдаг 70cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/tekirdag.jpg",
@@ -1009,7 +1009,7 @@ const menu = [
     },
     {
         id:125,
-        title:'Tekirdağ 100cl',
+        title:'Текирдаг 100cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/tekirdag.jpg",
@@ -1017,7 +1017,7 @@ const menu = [
     },
     {
         id:126,
-        title:'Pamukkale Gold Champagne 75cl',
+        title:'Золотое шампанское Памуккале 75cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/goldchampagne.jpg",
@@ -1328,7 +1328,6 @@ function getHotDrinks() {
 function urlHandler(value) {
     window.location.assign(`${value}`);
 }
-//SCROLL
 const gridItem = document.querySelectorAll('.grid-item');
 const categoriesContainer = document.querySelector('.categories-container');
 for(let i = 0; i < gridItem.length; i++){
