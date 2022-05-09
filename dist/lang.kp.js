@@ -377,7 +377,7 @@ const menu = [
     },
     {
         id:47,
-        title:'Bomonti',
+        title:'보몬티',
         category: 'beers',
         price: 50,
         img: "./images/beers/bomontifiltresiz.jpg",   
@@ -433,7 +433,7 @@ const menu = [
     },
     {
         id:53,
-        title:'Gin',
+        title:'진',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/cin.jpg",
@@ -505,7 +505,7 @@ const menu = [
     },
     {
         id:62,
-        title:'Malibu',
+        title:'말리부',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/malibu.jpg",
@@ -521,7 +521,7 @@ const menu = [
     },
     {
         id:64,
-        title:'Archers',
+        title:'궁수 리큐어',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/archers.jpg",
@@ -537,7 +537,7 @@ const menu = [
     },
     {
         id:66,
-        title:'Safari',
+        title:'사파리 리큐어',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/safari.jpg",
@@ -545,7 +545,7 @@ const menu = [
     },
     {
         id:67,
-        title:'Johnnie Walker',
+        title:'조니 워커',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/johnniewalker.jpg",
@@ -553,7 +553,7 @@ const menu = [
     },
     {
         id:68,
-        title:'Jack Daniels',
+        title:'잭 다니엘',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/jackdaniels.jpg",
@@ -561,7 +561,7 @@ const menu = [
     },
     {
         id:69,
-        title:'J&B',
+        title:'제이앤비',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/jb.jpg",
@@ -569,7 +569,7 @@ const menu = [
     },
     {
         id:70,
-        title:'Ballentines',
+        title:'발렌타인',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/ballentines.jpg",
@@ -577,7 +577,7 @@ const menu = [
     },
     {
         id:71,
-        title:'Chivas Regal',
+        title:'시바스 리갈',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/chivasregal.jpg",
@@ -585,7 +585,7 @@ const menu = [
     },
     {
         id:72,
-        title:'Tequila',
+        title:'테킬라',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/tequila.jpg",
@@ -593,7 +593,7 @@ const menu = [
     },
     {
         id:73,
-        title:'Bacardi-Cola',
+        title:'바카디콜라',
         category: 'mixed',
         price: 70,
         img: "./images/mixes/bacardi-kola.jpg",
@@ -601,7 +601,7 @@ const menu = [
     },
     {
         id:74,
-        title:'Campari-Orange',
+        title:'캄파리-오렌지',
         category: 'mixed',
         price: 70,
         img: "./images/mixes/campari-orange.jpg",
@@ -649,7 +649,7 @@ const menu = [
     },
     {
         id:80,
-        title:'Pamukkale Senfoni Dry/Trocken',
+        title:'파묵칼레 센포니 드라이/트로켄',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -657,7 +657,7 @@ const menu = [
     },
     {
         id:81,
-        title:'Pamukkale Semidry/Halbtrocken',
+        title:'파묵칼레 세미드라이/할브트로켄',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -665,7 +665,7 @@ const menu = [
     },
     {
         id:82,
-        title:'Pamukkale Sweet/Süb',
+        title:'파묵칼레 스위트/서브',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -673,7 +673,7 @@ const menu = [
     },
     {
         id:83,
-        title:'Pamukkale Anfora Trio',
+        title:'파묵칼레 안포라 트리오',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -681,7 +681,7 @@ const menu = [
     },
     {
         id:84,
-        title:'Pamukkale Cabernet Sauvignon',
+        title:'파묵칼레 카베르네 소비뇽',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -689,7 +689,7 @@ const menu = [
     },
     {
         id:85,
-        title:'Pamukkale Pinot Chardonnay',
+        title:'파묵칼레 피노 샤도네이',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/pinotchardonnay.jpg",
@@ -697,7 +697,7 @@ const menu = [
     },
     {
         id:86,
-        title:'Pamukkale Shiraz',
+        title:'파묵칼레 쉬라즈',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -705,7 +705,7 @@ const menu = [
     },
     {
         id:87,
-        title:'Coca Cola',
+        title:'코카콜라',
         category: 'colddrinks',
         price: 70,
         img: "./images/softdrinks/kola.png",
@@ -713,7 +713,7 @@ const menu = [
     },
     {
         id:88,
-        title:'Fanta',
+        title:'환타',
         category: 'colddrinks',
         price: 70,
         img: "./images/softdrinks/fanta.jpg",
@@ -721,7 +721,7 @@ const menu = [
     },
     {
         id:89,
-        title:'Sprite',
+        title:'스프라이트',
         category: 'colddrinks',
         price: 70,
         img: "./images/softdrinks/sprite.png",
@@ -737,7 +737,7 @@ const menu = [
     },
     {
         id:91,
-        title:'Redbull',
+        title:'레드 불',
         category: 'colddrinks',
         price: 70,
         img: "./images/softdrinks/redbull.jpg",
@@ -745,7 +745,7 @@ const menu = [
     },
     {
         id:92,
-        title:'Schweppes',
+        title:'슈베페스',
         category: 'colddrinks',
         price: 70,
         img: "./images/softdrinks/schweppes.jpg",
@@ -817,7 +817,7 @@ const menu = [
     },
     {
         id:101,
-        title:'Nescafe',
+        title:'네스카페',
         category: 'hotdrinks',
         price: 70,
         img: "./images/hot-drinks/nescafe.jpg",
@@ -857,7 +857,7 @@ const menu = [
     },
     {
         id:106,
-        title:'B-52',
+        title:'비-오십이',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/b52.jpg",
@@ -865,7 +865,7 @@ const menu = [
     },
     {
         id:107,
-        title:'Sex on the Beach',
+        title:'해변에서의 섹스',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/sexonthebeach.jpg",
@@ -913,7 +913,7 @@ const menu = [
     },
     {
         id:113,
-        title:'La Bomba',
+        title:'라 봄바',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/labomba.jpg",
@@ -921,7 +921,7 @@ const menu = [
     },
     {
         id:114,
-        title:'Fantastic',
+        title:'판타스틱',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/fantastic.jpg",
@@ -937,7 +937,7 @@ const menu = [
     },
     {
         id:116,
-        title:'White Paradise',
+        title:'화이트 파라다이스',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/whiteparadise.jpg",
@@ -953,7 +953,7 @@ const menu = [
     },
     {
         id:118,
-        title:'Yeni Raki 20cl',
+        title:'예니 라키 20cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/yeniraki.jpg",
@@ -961,7 +961,7 @@ const menu = [
     },
     {
         id:119,
-        title:'Yeni Raki 35cl',
+        title:'예니 라키 35cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/yeniraki.jpg",
@@ -969,7 +969,7 @@ const menu = [
     },
     {
         id:120,
-        title:'Yeni Raki 50cl',
+        title:'예니 라키 50cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/yeniraki.jpg",
@@ -977,7 +977,7 @@ const menu = [
     },
     {
         id:121,
-        title:'Yeni Raki 70cl',
+        title:'예니 라키 70cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/yeniraki.jpg",
@@ -985,7 +985,7 @@ const menu = [
     },
     {
         id:122,
-        title:'Yeni Raki 100cl',
+        title:'예니 라키 100cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/yeniraki.jpg",
@@ -993,7 +993,7 @@ const menu = [
     },
     {
         id:123,
-        title:'Tekirdağ 35cl',
+        title:'테키르다그 라키 35cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/tekirdag.jpg",
@@ -1001,7 +1001,7 @@ const menu = [
     },
     {
         id:124,
-        title:'Tekirdağ 70cl',
+        title:'테키르다그 라키 70cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/tekirdag.jpg",
@@ -1009,7 +1009,7 @@ const menu = [
     },
     {
         id:125,
-        title:'Tekirdağ 100cl',
+        title:'테키르다그 라키 100cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/tekirdag.jpg",
@@ -1017,7 +1017,7 @@ const menu = [
     },
     {
         id:126,
-        title:'Pamukkale Gold Champagne 75cl',
+        title:'파묵칼레 골드 샴페인 75cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/goldchampagne.jpg",

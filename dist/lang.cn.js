@@ -172,7 +172,7 @@ const menu = [
         title:'波洛蒂豆',
         category: 'starters',
         price: 35,
-        img: "./images/starters/barbunyapilaki.jpg", //DEĞİŞTİRİLECEK ***************************
+        img: "./images/starters/barbunyapilaki.jpg",
         desc: 'Borlotti beans with olive oil'
     },
     {
@@ -201,7 +201,7 @@ const menu = [
     },
     {
         id:27,
-        title:'Soup',
+        title:'汤',
         category: 'starters',
         price: 20,
         img: "./images/starters/corba.jpg",
@@ -369,7 +369,7 @@ const menu = [
     },
     {
         id:46,
-        title:'Efes 啤酒',
+        title:'埃菲斯 啤酒',
         category: 'beers',
         price: 25,
         img: "./images/beers/efesfici.jpg",
@@ -377,7 +377,7 @@ const menu = [
     },
     {
         id:47,
-        title:'Bomonti non Filter 啤酒',
+        title:'博蒙蒂',
         category: 'beers',
         price: 50,
         img: "./images/beers/bomontifiltresiz.jpg",   
@@ -393,7 +393,7 @@ const menu = [
     },
     {
         id:49,
-        title:'Amsterdam 啤酒',
+        title:'阿姆斯特丹',
         category: 'beers',
         price: 80,
         img: "./images/beers/amsterdam.png", 
@@ -401,7 +401,7 @@ const menu = [
     },
     {
         id:50,
-        title:'Miller 啤酒',
+        title:'米勒啤酒',
         category: 'beers',
         price: 60,
         img: "./images/beers/miller.jpg",
@@ -409,7 +409,7 @@ const menu = [
     },
     {
         id:51,
-        title:'Becks 啤酒',
+        title:'贝克啤酒',
         category: 'beers',
         price: 60,
         img: "./images/beers/becks.jpg",
@@ -465,7 +465,7 @@ const menu = [
     },
     {
         id:57,
-        title:'Absolut',
+        title:'绝对',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/absolut.jpg",
@@ -473,7 +473,7 @@ const menu = [
     },
     {
         id:58,
-        title:'Bacardi',
+        title:'百加得',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/bacardi.jpg",
@@ -481,7 +481,7 @@ const menu = [
     },
     {
         id:59,
-        title:'Martini',
+        title:'马提尼',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/martini.jpg",
@@ -489,7 +489,7 @@ const menu = [
     },
     {
         id:60,
-        title:'Campari',
+        title:'金巴利',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/campari.jpg",
@@ -497,7 +497,7 @@ const menu = [
     },
     {
         id:61,
-        title:'Gordon Gin',
+        title:'戈登杜松子酒',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/gordoncin.png",
@@ -505,7 +505,7 @@ const menu = [
     },
     {
         id:62,
-        title:'Malibu',
+        title:'马里布',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/malibu.jpg",
@@ -513,7 +513,7 @@ const menu = [
     },
     {
         id:63,
-        title:'Baileys',
+        title:'百利甜酒',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/baileys.jpg",
@@ -521,7 +521,7 @@ const menu = [
     },
     {
         id:64,
-        title:'Archers',
+        title:'弓箭手的酒',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/archers.jpg",
@@ -529,7 +529,7 @@ const menu = [
     },
     {
         id:65,
-        title:'Kahlua',
+        title:'甘露酒',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/kahlua.jpg",
@@ -537,7 +537,7 @@ const menu = [
     },
     {
         id:66,
-        title:'Safari',
+        title:'苹果浏览器',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/safari.jpg",
@@ -545,7 +545,7 @@ const menu = [
     },
     {
         id:67,
-        title:'Johnnie Walker',
+        title:'尊尼获加',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/johnniewalker.jpg",
@@ -553,7 +553,7 @@ const menu = [
     },
     {
         id:68,
-        title:'Jack Daniels',
+        title:'杰克丹尼',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/jackdaniels.jpg",
@@ -569,7 +569,7 @@ const menu = [
     },
     {
         id:70,
-        title:'Ballentines',
+        title:'百龄坛',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/ballentines.jpg",
@@ -577,7 +577,7 @@ const menu = [
     },
     {
         id:71,
-        title:'Chivas Regal',
+        title:'芝华士',
         category: 'importdrinks',
         price: 70,
         img: "./images/importdrinks/chivasregal.jpg",
@@ -649,7 +649,7 @@ const menu = [
     },
     {
         id:80,
-        title:'Pamukkale Senfoni Dry/Trocken',
+        title:'棉花堡芥末干/干',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -657,7 +657,7 @@ const menu = [
     },
     {
         id:81,
-        title:'Pamukkale Semidry/Halbtrocken',
+        title:'棉花堡半干/半干',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -665,7 +665,7 @@ const menu = [
     },
     {
         id:82,
-        title:'Pamukkale Sweet/Süb',
+        title:'棉花堡甜/子',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -673,7 +673,7 @@ const menu = [
     },
     {
         id:83,
-        title:'Pamukkale Anfora Trio',
+        title:'棉花堡安福拉三重奏',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -681,7 +681,7 @@ const menu = [
     },
     {
         id:84,
-        title:'Pamukkale Cabernet Sauvignon',
+        title:'棉花堡赤霞珠',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -689,7 +689,7 @@ const menu = [
     },
     {
         id:85,
-        title:'Pamukkale Pinot Chardonnay',
+        title:'棉花堡比诺霞多丽',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/pinotchardonnay.jpg",
@@ -697,7 +697,7 @@ const menu = [
     },
     {
         id:86,
-        title:'Pamukkale Shiraz',
+        title:'棉花堡设拉子',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/semidryhalbtrocken.jpg",
@@ -705,7 +705,7 @@ const menu = [
     },
     {
         id:87,
-        title:'Coca Cola',
+        title:'可口可乐',
         category: 'colddrinks',
         price: 70,
         img: "./images/softdrinks/kola.png",
@@ -713,7 +713,7 @@ const menu = [
     },
     {
         id:88,
-        title:'Fanta',
+        title:'芬达',
         category: 'colddrinks',
         price: 70,
         img: "./images/softdrinks/fanta.jpg",
@@ -721,7 +721,7 @@ const menu = [
     },
     {
         id:89,
-        title:'Sprite',
+        title:'雪碧',
         category: 'colddrinks',
         price: 70,
         img: "./images/softdrinks/sprite.png",
@@ -737,7 +737,7 @@ const menu = [
     },
     {
         id:91,
-        title:'Redbull',
+        title:'红牛',
         category: 'colddrinks',
         price: 70,
         img: "./images/softdrinks/redbull.jpg",
@@ -745,7 +745,7 @@ const menu = [
     },
     {
         id:92,
-        title:'Schweppes',
+        title:'史威士',
         category: 'colddrinks',
         price: 70,
         img: "./images/softdrinks/schweppes.jpg",
@@ -817,7 +817,7 @@ const menu = [
     },
     {
         id:101,
-        title:'Nescafe',
+        title:'雀巢咖啡',
         category: 'hotdrinks',
         price: 70,
         img: "./images/hot-drinks/nescafe.jpg",
@@ -849,7 +849,7 @@ const menu = [
     },
     {
         id:105,
-        title:'Welcome 鸡尾酒',
+        title:'欢迎 鸡尾酒',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/hosgeldinkokteyl.jpg",
@@ -857,7 +857,7 @@ const menu = [
     },
     {
         id:106,
-        title:'B-52',
+        title:'乙-五十二',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/b52.jpg",
@@ -865,7 +865,7 @@ const menu = [
     },
     {
         id:107,
-        title:'Sex on the Beach',
+        title:'海滩上的性爱',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/sexonthebeach.jpg",
@@ -873,7 +873,7 @@ const menu = [
     },
     {
         id:108,
-        title:'Pine Colada',
+        title:'飘香飘香',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/pinekolada.jpg",
@@ -913,7 +913,7 @@ const menu = [
     },
     {
         id:113,
-        title:'La Bomba',
+        title:'炸弹',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/labomba.jpg",
@@ -921,7 +921,7 @@ const menu = [
     },
     {
         id:114,
-        title:'Fantastic',
+        title:'极好的',
         category: 'coctails',
         price: 70,
         img: "./images/coctails/fantastic.jpg",
@@ -993,7 +993,7 @@ const menu = [
     },
     {
         id:123,
-        title:'Tekirdağ 35cl',
+        title:'泰基尔达 35cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/tekirdag.jpg",
@@ -1001,7 +1001,7 @@ const menu = [
     },
     {
         id:124,
-        title:'Tekirdağ 70cl',
+        title:'泰基尔达 70cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/tekirdag.jpg",
@@ -1009,7 +1009,7 @@ const menu = [
     },
     {
         id:125,
-        title:'Tekirdağ 100cl',
+        title:'泰基尔达 100cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/tekirdag.jpg",
@@ -1017,7 +1017,7 @@ const menu = [
     },
     {
         id:126,
-        title:'Pamukkale Gold Champagne 75cl',
+        title:'棉花堡黄金香槟 75cl',
         category: 'localdrinks',
         price: 70,
         img: "./images/localdrinks/goldchampagne.jpg",
