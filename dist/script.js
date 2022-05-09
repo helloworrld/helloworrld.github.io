@@ -1338,7 +1338,7 @@ for(let i = 0; i < gridItem.length; i++){
 function scroll(){
     console.log('Denemeee');
     window.scrollTo({
-        top: 800,
+        top: 830,
         behavior: 'smooth'
     });
 }
