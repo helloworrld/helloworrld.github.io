@@ -369,7 +369,7 @@ const menu = [
     },
     {
         id:46,
-        title:'Efes Пиво',
+        title:'Эфес Пиво',
         category: 'beers',
         price: 25,
         img: "./images/beers/efesfici.jpg",
