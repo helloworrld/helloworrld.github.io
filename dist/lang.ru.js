@@ -4,1032 +4,1022 @@ const menu = [
         title:'Говядина',
         category: 'grill',
         price: 65,
-        img: "./images/grill-saute/antrikot.jpg",
-        desc: 'Подавать с рисом, овощами и двумя кусочками говядины'
+        img: "./images/grill-saute/antrikot.jpg"
     },
     {
         id:2,
         title:'Бараньи отбивные',
         category: 'grill',
         price: 70,
-        img: "./images/grill-saute/kuzupirzola.jpg",
-        desc: 'Serve with rice, vegetables and two pieces lamb chops'
+        img: "./images/grill-saute/kuzupirzola.jpg"
     },
     {
         id:3,
         title:'Шашлык из баранины',
         category: 'grill',
         price: 70,
-        img: "./images/grill-saute/kuzusis.jpg",
-        desc: 'Serve with rice, vegetables and four pieces lamb skewers'
+        img: "./images/grill-saute/kuzusis.jpg"
     },
     {
         id:4,
         title:'Адана Шашлык',
         category: 'grill',
         price: 70,
-        img: "./images/grill-saute/adanasis.jpg",
-        desc: 'Serve with rice, vegetables and four pieces adana skewers'
+        img: "./images/grill-saute/adanasis.jpg"
     },
     {
         id:5,
         title:'Жареная курица',
         category: 'grill',
         price: 70,
-        img: "./images/grill-saute/pilicizgara.jpg",
-        desc: 'Serve with rice, vegetables and two pieces grilled chicken'
+        img: "./images/grill-saute/pilicizgara.jpg"
     },
     {
         id:6,
         title:'Куриные шашлычки',
         category: 'grill',
         price: 70,
-        img: "./images/grill-saute/pilicsis.jpg",
-        desc: 'Serve with rice, vegetables and four pieces chicken skewers'
+        img: "./images/grill-saute/pilicsis.jpg"
     },
     {
         id:7,
         title:'Фрикадельки',
         category: 'grill',
         price: 70,
-        img: "./images/grill-saute/izgarakofte.jpg",
-        desc: 'Serve with rice, vegetables and four pieces meatball'
+        img: "./images/grill-saute/izgarakofte.jpg"
     },
     {
         id:8,
         title:'Смешанный гриль',
         category: 'grill',
         price: 70,
-        img: "./images/grill-saute/karisikizgara.jpg",
-        desc: 'Desc'
+        img: "./images/grill-saute/karisikizgara.jpg"
     },
     {
         id:9,
         title:'Овощи на гриле',
         category: 'grill',
         price: 70,
-        img: "./images/grill-saute/sebzeizgara.jpg",
-        desc: 'Desc'
+        img: "./images/grill-saute/sebzeizgara.jpg"
     },
     {
         id:10,
         title:'Шницель',
         category: 'grill',
         price: 70,
-        img: "./images/grill-saute/pilicpane.jpg",
-        desc: 'Desc'
+        img: "./images/grill-saute/pilicpane.jpg"
     },
     {
         id:11,
         title:'Жареная печень',
         category: 'grill',
         price: 70,
-        img: "./images/grill-saute/cigersote.jpg",
-        desc: 'Desc'
+        img: "./images/grill-saute/cigersote.jpg"
     },
     {
         id:12,
         title:'Куриное соте с грибами',
         category: 'grill',
         price: 70,
-        img: "./images/grill-saute/pilicmantarlisote.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/grill-saute/pilicmantarlisote.jpg"
     },
     {
         id:13,
         title:'Жареное мясо с грибами',
         category: 'grill',
         price: 70,
-        img: "./images/grill-saute/etmantarlisote.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/grill-saute/etmantarlisote.jpg"
     },
     {
         id:14,
         title:'Жареный гриб',
         category: 'grill',
         price: 70,
-        img: "./images/grill-saute/mantarsote.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/grill-saute/mantarsote.jpg"
     },
     {
         id:15,
         title:'Запеканка с грибами',
         category: 'grill',
         price: 70,
-        img: "./images/grill-saute/guvecmantarli.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/grill-saute/guvecmantarli.jpg"
     },
     {
         id:16,
         title:'Спринг-ролл',
         category: 'starters',
         price: 25,
-        img: "./images/starters/sigaraboregi.jpg",
-        desc: 'Five pieces spring roll'
+        img: "./images/starters/sigaraboregi.jpg"
     },
     {
         id:17,
         title:'Жареная картошка',
         category: 'starters',
         price: 25,
-        img: "./images/starters/patateskizartmasi.jpg",
-        desc: 'Desc'
+        img: "./images/starters/patateskizartmasi.jpg"
     },
     {
         id:18,
         title:'Фаршированные баклажаны',
         category: 'starters',
         price: 50,
-        img: "./images/starters/imambayildi.jpg",
-        desc: 'Eggplant cooked in olive oil with onions, garlic and tomatoes'
+        img: "./images/starters/imambayildi.jpg"
     },
     {
         id:19,
         title:'Фаршированные баклажаны с мясом',
         category: 'starters',
         price: 65,
-        img: "./images/starters/karniyarik.jpg",
-        desc: 'Eggplant cooked in olive oil with onions and meat, garlic and tomatoes'
+        img: "./images/starters/karniyarik.jpg"
     },
     {
         id:21,
         title:'Фаршированные виноградные листья',
         category: 'starters',
         price: 35,
-        img: "./images/starters/yapraksarma.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/starters/yapraksarma.jpg"
     },
     {
         id:22,
         title:'Зеленая фасоль',
         category: 'starters',
         price: 35,
-        img: "./images/starters/tazefasulye.jpg",
-        desc: 'Greenbeans with olive oil'
+        img: "./images/starters/tazefasulye.jpg"
     },
     {
         id:23,
         title:'Бобы Борлотти',
         category: 'starters',
         price: 35,
-        img: "./images/starters/barbunyapilaki.jpg", //DEĞİŞTİRİLECEK ***************************
-        desc: 'Borlotti beans with olive oil'
+        img: "./images/starters/barbunyapilaki.jpg"
     },
     {
         id:24,
         title:'Йогурт',
         category: 'starters',
         price: 25,
-        img: "./images/starters/haydari.jpg",
-        desc: 'Yoghurt with garlic'
+        img: "./images/starters/haydari.jpg"
     },
     {
         id:25,
         title:'Сырная тарелка',
         category: 'starters',
         price: 45,
-        img: "./images/starters/peynirtabagi.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/starters/peynirtabagi.jpg"
     },
     {
         id:26,
         title:'Рис',
         category: 'starters',
         price: 70,
-        img: "./images/starters/pilav.jpg",
-        desc: 'A plate of rice'
+        img: "./images/starters/pilav.jpg"
     },
     {
         id:27,
         title:'Суп',
         category: 'starters',
         price: 20,
-        img: "./images/starters/corba.jpg",
-        desc: 'Desc'
+        img: "./images/starters/corba.jpg"
+    },
+    {
+        id:28,
+        title:'Humus',
+        category: 'starters',
+        price: 20,
+        img: "./images/starters/humus.jpg"
     },
     {
         id:28,
         title:'Форель Рыба',
         category: 'fish',
         price: 70,
-        img: "./images/fish/alabalik.jpg",
-        desc: 'Desc'
+        img: "./images/fish/alabalik.jpg"
     },
     {
         id:29,
         title:'Рыба морской лещ',
         category: 'fish',
         price: 70,
-        img: "./images/fish/cipura.jpg",
-        desc: 'Desc'
+        img: "./images/fish/cipura.jpg"
     },
     {
         id:28,
         title:'Обычный омлет',
         category: 'omlette',
         price: 70,
-        img: "./images/omlette/omlet.jpg",
-        desc: 'Desc'
+        img: "./images/omlette/omlet.jpg"
     },
     {
         id:29,
         title:'Грибной омлет',
         category: 'omlette',
         price: 70,
-        img: "./images/omlette/omlet.jpg",
-        desc: 'Desc'
+        img: "./images/omlette/omlet.jpg"
     },
     {
         id:30,
         title:'Сырный омлет',
         category: 'omlette',
         price: 70,
-        img: "./images/omlette/omlet.jpg",
-        desc: 'Desc'
+        img: "./images/omlette/omlet.jpg"
     },
     {
         id:31,
         title:'Томатный омлет',
         category: 'omlette',
         price: 70,
-        img: "./images/omlette/omlet.jpg",
-        desc: 'Desc'
+        img: "./images/omlette/omlet.jpg"
     },
     {
         id:32,
         title:'Картофельный омлет',
         category: 'omlette',
         price: 70,
-        img: "./images/omlette/omlet.jpg",
-        desc: 'Desc'
+        img: "./images/omlette/omlet.jpg"
     },
     {
         id:33,
         title:'Смешанный омлет',
         category: 'omlette',
         price: 70,
-        img: "./images/omlette/omlet.jpg",
-        desc: 'Desc'
+        img: "./images/omlette/omlet.jpg"
     },
     {
         id:34,
         title:'Паста с томатным соусом',
         category: 'pasta',
         price: 70,
-        img: "./images/pasta/domatessoslumakarna.jpg",
-        desc: 'Desc'
+        img: "./images/pasta/domatessoslumakarna.jpg"
     },
     {
         id:35,
         title:'Паста с мясным соусом',
         category: 'pasta',
         price: 70,
-        img: "./images/pasta/kiymasoslumakarna.jpg",
-        desc: 'Desc'
+        img: "./images/pasta/kiymasoslumakarna.jpg"
     },
     {
         id:36,
         title:'Сезонный салат',
         category: 'salad',
         price: 70,
-        img: "./images/salad/mevsimsalatasi.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/salad/mevsimsalatasi.jpg"
     },
     {
         id:37,
         title:'Зеленый салат',
         category: 'salad',
         price: 70,
-        img: "./images/salad/yesilsalata.jpg",
-        desc: 'Desc'
+        img: "./images/salad/yesilsalata.jpg"
     },
     {
         id:38,
         title:'Салат из тунца',
         category: 'salad',
         price: 70,
-        img: "./images/salad/tonbaliklisalata.jpg",
-        desc: 'Desc'
+        img: "./images/salad/tonbaliklisalata.jpg"
     },
     {
         id:39,
         title:'сырный салат',
         category: 'salad',
         price: 70,
-        img: "./images/salad/peynirlisalata.jpg",
-        desc: 'Desc'
+        img: "./images/salad/peynirlisalata.jpg"
+    },
+    {
+        id:39,
+        title:'Mantarlı Salata',
+        category: 'salad',
+        price: 70,
+        img: "./images/salad/mantarlisalata.jpg"
     },
     {
         id:40,
         title: 'Пудинг',
         category: 'delight',
         price: 70,
-        img: "./images/sweets/puding.jpg",
-        desc: 'Puding'
+        img: "./images/sweets/puding.jpg"
     },
     {
         id:41,
-        title:'Турецкие сладости',
+        title:'Baklava',
         category: 'delight',
         price: 70,
-        img: "./images/sweets/turktatlilari.jpg",
-        desc: 'Baklava'
+        img: "./images/sweets/turktatlilari.jpg"
+    },
+    {
+        id:41,
+        title:'Dondurmalı Baklava',
+        category: 'delight',
+        price: 70,
+        img: "./images/sweets/dondurmalibaklava.jpg"
     },
     {
         id:42,
         title:'Дыня с мороженым',
         category: 'delight',
         price: 70,
-        img: "./images/sweets/dondurmalikavun.jpg",
-        desc: 'Desc'
+        img: "./images/sweets/dondurmalikavun.jpg"
     },
     {
         id:43,
         title:'Йогурт с медом',
         category: 'delight',
         price: 70,
-        img: "./images/sweets/balliyogurt.jpg",
-        desc: 'Desc'
+        img: "./images/sweets/balliyogurt.jpg"
     },
     {
         id:44,
         title:'Мороженое',
         category: 'delight',
         price: 70,
-        img: "./images/sweets/dondurma.jpg",
-        desc: 'Icecream'
+        img: "./images/sweets/dondurma.jpg"
     },
     {
         id:45,
         title:'Фрукты',
         category: 'delight',
         price: 70,
-        img: "./images/sweets/sezonmeyve.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/sweets/sezonmeyve.jpg"
     },
     {
         id:46,
         title:'Эфес Пиво',
         category: 'beers',
         price: 25,
-        img: "./images/beers/efesfici.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/beers/efesfici.jpg"
+    },
+    {
+        id:47,
+        title:'Efes Malt',
+        category: 'beers',
+        price: 50,
+        img: "./images/beers/efesmalt.jpg"
+    },
+    {
+        id:47,
+        title:'Efes Özel Seri',
+        category: 'beers',
+        price: 50,
+        img: "./images/beers/efesozelseri.jpg"
+    },
+    {
+        id:47,
+        title:'Efes Xtra',
+        category: 'beers',
+        price: 50,
+        img: "./images/beers/efesxtra.jpg"
+    },
+    {
+        id:47,
+        title:'Tuborg',
+        category: 'beers',
+        price: 50,
+        img: "./images/beers/tuborg.jpg"
+    },
+    {
+        id:47,
+        title:'Tuborg Amber',
+        category: 'beers',
+        price: 50,
+        img: "./images/beers/tuborgamber.jpg"
+    },
+    {
+        id:47,
+        title:'Tuborg Filtresiz',
+        category: 'beers',
+        price: 50,
+        img: "./images/beers/tuborgfiltresiz.jpg"
     },
     {
         id:47,
         title:'Бомонти без фильтра',
         category: 'beers',
         price: 50,
-        img: "./images/beers/bomontifiltresiz.jpg",   
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/beers/bomontifiltresiz.jpg"
     },
     {
-        id:48,
-        title:'Темное пиво',
+        id:47,
+        title:'Bomonti Filtresiz Ipa',
         category: 'beers',
-        price: 60,
-        img: "./images/beers/darkbira.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        price: 50,
+        img: "./images/beers/bomontiipa.jpg"
+    },
+    {
+        id:47,
+        title:'Bud',
+        category: 'beers',
+        price: 50,
+        img: "./images/beers/bud.jpg"
+    },
+    {
+        id:47,
+        title:'Carlsberg',
+        category: 'beers',
+        price: 50,
+        img: "./images/beers/carlsberg.jpg"
+    },
+    {
+        id:47,
+        title:'Corona',
+        category: 'beers',
+        price: 50,
+        img: "./images/beers/corona.jpg"
+    },
+    {
+        id:47,
+        title:'Blanc',
+        category: 'beers',
+        price: 50,
+        img: "./images/beers/blanc.jpg"
+    },
+    {
+        id:47,
+        title:'Desperados',
+        category: 'beers',
+        price: 50,
+        img: "./images/beers/desperados.jpg"
+    },
+    {
+        id:47,
+        title:'Duvel',
+        category: 'beers',
+        price: 50,
+        img: "./images/beers/duvel.jpg"
+    },
+    {
+        id:47,
+        title:'Leffe Blonde',
+        category: 'beers',
+        price: 50,
+        img: "./images/beers/leffe.jpeg"
+    },
+    {
+        id:47,
+        title:'Sol',
+        category: 'beers',
+        price: 50,
+        img: "./images/beers/sol.jpeg"
+    },
+    {
+        id:47,
+        title:'Guiness',
+        category: 'beers',
+        price: 50,
+        img: "./images/beers/guiness.jpg"
     },
     {
         id:49,
         title:'Амстердам',
         category: 'beers',
         price: 80,
-        img: "./images/beers/amsterdam.png", 
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/beers/amsterdam.png"
     },
     {
         id:50,
         title:'Миллер',
         category: 'beers',
         price: 60,
-        img: "./images/beers/miller.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/beers/miller.jpg"
     },
     {
         id:51,
         title:'Бекс',
         category: 'beers',
         price: 60,
-        img: "./images/beers/becks.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/beers/becks.jpg"
     },
     {
         id:52,
         title:'Raki',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/raki.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/raki.jpg"
     },
     {
         id:52,
         title:'Водка',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/votka.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/votka.jpg"
     },
     {
         id:53,
         title:'Джин',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/cin.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/cin.jpg"
     },
     {
         id:54,
         title:'бренди',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/brendi.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/brendi.jpg"
     },
     {
         id:55,
         title:'коньяк',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/kanyak.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/kanyak.jpg"
     },
     {
         id:56,
         title:'Ликер',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/likor.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/likor.jpg"
     },
     {
         id:57,
         title:'Абсолют',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/absolut.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/absolut.jpg"
     },
     {
         id:58,
         title:'Бакарди',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/bacardi.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/bacardi.jpg"
     },
     {
         id:59,
         title:'мартини',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/martini.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/martini.jpg"
     },
     {
         id:60,
         title:'Кампари',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/campari.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/campari.jpg"
     },
     {
         id:61,
         title:'Гордон Джин',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/gordoncin.png",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/gordoncin.png"
     },
     {
         id:62,
         title:'Малибу',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/malibu.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/malibu.jpg"
     },
     {
         id:63,
         title:'Бейлис',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/baileys.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/baileys.jpg"
     },
     {
         id:64,
         title:'Archers',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/archers.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/archers.jpg"
     },
     {
         id:65,
         title:'Калуа',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/kahlua.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/kahlua.jpg"
     },
     {
         id:66,
         title:'ликер сафари',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/safari.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/safari.jpg"
     },
     {
         id:67,
         title:'Джонни Уокер',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/johnniewalker.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/johnniewalker.jpg"
     },
     {
         id:68,
         title:'Jack Daniels',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/jackdaniels.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/jackdaniels.jpg"
     },
     {
         id:69,
         title:'J&B',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/jb.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/jb.jpg"
     },
     {
         id:70,
         title:'Баллантины',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/ballentines.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/ballentines.jpg"
     },
     {
         id:71,
         title:'Chivas Regal',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/chivasregal.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/chivasregal.jpg"
     },
     {
         id:72,
         title:'Текила',
         category: 'importdrinks',
         price: 70,
-        img: "./images/importdrinks/tequila.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/importdrinks/tequila.jpg"
     },
     {
         id:73,
         title:'Бакарди-Кола',
         category: 'mixed',
         price: 70,
-        img: "./images/mixes/bacardi-kola.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/mixes/bacardi-kola.jpg"
     },
     {
         id:74,
         title:'Кампари-Оранж',
         category: 'mixed',
         price: 70,
-        img: "./images/mixes/campari-orange.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/mixes/campari-orange.jpg"
     },
     {
         id:75,
         title:'Виски-Сода',
         category: 'mixed',
         price: 70,
-        img: "./images/mixes/viski-soda.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/mixes/viski-soda.jpg"
     },
     {
         id:76,
         title:'Джин Тоник',
         category: 'mixed',
         price: 70,
-        img: "./images/mixes/cin-tonik.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/mixes/cin-tonik.jpg"
     },
     {
         id:77,
         title:'Водка-Кола',
         category: 'mixed',
         price: 70,
-        img: "./images/mixes/votka-kola.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/mixes/votka-kola.jpg"
     },
     {
         id:78,
         title:'Гинфизз',
         category: 'mixed',
         price: 70,
-        img: "./images/mixes/ginfizz.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/mixes/ginfizz.jpg"
     },
     {
         id:79,
         title:'пиво-кола',
         category: 'mixed',
         price: 70,
-        img: "./images/mixes/bira-kola.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/mixes/bira-kola.jpg"
     },
     {
         id:80,
         title:'Памуккале Сенфони Драй/Трокен',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/semidryhalbtrocken.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/semidryhalbtrocken.jpg"
     },
     {
         id:81,
         title:'Памуккале Полусухое/Хальбтрокен',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/semidryhalbtrocken.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/semidryhalbtrocken.jpg"
     },
     {
         id:82,
         title:'Памуккале Сладкий/Süb',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/semidryhalbtrocken.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/semidryhalbtrocken.jpg"
     },
     {
         id:83,
         title:'Памуккале Анфора Трио',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/semidryhalbtrocken.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/semidryhalbtrocken.jpg"
     },
     {
         id:84,
         title:'Памуккале Каберне Совиньон',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/semidryhalbtrocken.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/semidryhalbtrocken.jpg"
     },
     {
         id:85,
         title:'Памуккале Пино Шардоне',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/pinotchardonnay.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/pinotchardonnay.jpg"
     },
     {
         id:86,
         title:'Памуккале Шираз',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/semidryhalbtrocken.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/semidryhalbtrocken.jpg"
     },
     {
         id:87,
         title:'Кока-Кола',
         category: 'colddrinks',
         price: 70,
-        img: "./images/softdrinks/kola.png",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/softdrinks/kola.png"
     },
     {
         id:88,
         title:'фанта',
         category: 'colddrinks',
         price: 70,
-        img: "./images/softdrinks/fanta.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/softdrinks/fanta.jpg"
     },
     {
         id:89,
         title:'Спрайт',
         category: 'colddrinks',
         price: 70,
-        img: "./images/softdrinks/sprite.png",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/softdrinks/sprite.png"
     },
     {
         id:90,
         title:'чай со льдом',
         category: 'colddrinks',
         price: 70,
-        img: "./images/softdrinks/icetea.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/softdrinks/icetea.jpg"
     },
     {
         id:91,
         title:'Ред Булл',
         category: 'colddrinks',
         price: 70,
-        img: "./images/softdrinks/redbull.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/softdrinks/redbull.jpg"
     },
     {
         id:92,
         title:'Швепс',
         category: 'colddrinks',
         price: 70,
-        img: "./images/softdrinks/schweppes.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/softdrinks/schweppes.jpg"
     },
     {
         id:93,
         title:'Сок',
         category: 'colddrinks',
         price: 70,
-        img: "./images/softdrinks/meyvesuyu.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/softdrinks/meyvesuyu.jpg"
     },
     {
         id:94,
         title:'Свежий апельсиновый сок',
         category: 'colddrinks',
         price: 70,
-        img: "./images/softdrinks/portakalsuyu.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/softdrinks/portakalsuyu.jpg"
     },
     {
         id:95,
         title:'Сода',
         category: 'colddrinks',
         price: 70,
-        img: "./images/softdrinks/madensuyu.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/softdrinks/madensuyu.jpg"
     },
     {
         id:96,
         title:'Большая бутылка воды',
         category: 'colddrinks',
         price: 70,
-        img: "./images/softdrinks/bsu.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
-    },
-    {
-        id:97,
-        title:'Маленькая бутылка воды',
-        category: 'colddrinks',
-        price: 70,
-        img: "./images/softdrinks/su.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/softdrinks/bsu.jpg"
     },
     {
         id:98,
         title:'Чай',
         category: 'hotdrinks',
         price: 70,
-        img: "./images/hot-drinks/cay.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/hot-drinks/cay.jpg"
     },
     {
         id:99,
         title:'Кофе по-турецки',
         category: 'hotdrinks',
         price: 82,
-        img: "./images/hot-drinks/turkkahvesi.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/hot-drinks/turkkahvesi.jpg"
     },
     {
         id:100,
         title:'Яблочный чай',
         category: 'hotdrinks',
         price: 70,
-        img: "./images/hot-drinks/elmacayi.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/hot-drinks/elmacayi.jpg"
     },
     {
         id:101,
         title:'Нескафе',
         category: 'hotdrinks',
         price: 70,
-        img: "./images/hot-drinks/nescafe.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/hot-drinks/nescafe.jpg"
     },
     {
         id:102,
         title:'Капучино',
         category: 'hotdrinks',
         price: 70,
-        img: "./images/hot-drinks/cappuccino.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/hot-drinks/cappuccino.jpg"
     },
     {
         id:103,
         title:'Горячий шоколад',
         category: 'hotdrinks',
         price: 70,
-        img: "./images/hot-drinks/sicakcikolata.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/hot-drinks/sicakcikolata.jpg"
     },
     {
         id:104,
         title:'Кайас Коктейль',
         category: 'coctails',
         price: 70,
-        img: "./images/coctails/kayaskokteyl.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/coctails/kayaskokteyl.jpg"
     },
     {
         id:105,
         title:'Добро пожаловать Коктейль',
         category: 'coctails',
         price: 70,
-        img: "./images/coctails/hosgeldinkokteyl.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/coctails/hosgeldinkokteyl.jpg"
     },
     {
         id:106,
         title:'Б-52',
         category: 'coctails',
         price: 70,
-        img: "./images/coctails/b52.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/coctails/b52.jpg"
     },
     {
         id:107,
         title:'Секс на пляже',
         category: 'coctails',
         price: 70,
-        img: "./images/coctails/sexonthebeach.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/coctails/sexonthebeach.jpg"
     },
     {
         id:108,
         title:'Пина Колада',
         category: 'coctails',
         price: 70,
-        img: "./images/coctails/pinekolada.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/coctails/pinekolada.jpg"
     },
     {
         id:109,
         title:'Текила санрайз',
         category: 'coctails',
         price: 70,
-        img: "./images/coctails/tequilasunrise.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/coctails/tequilasunrise.jpg"
     },
     {
         id:110,
         title:'Calprinia',
         category: 'coctails',
         price: 70,
-        img: "./images/coctails/calprinia.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/coctails/calprinia.jpg"
     },
     {
         id:111,
         title:'Маргарита',
         category: 'coctails',
         price: 70,
-        img: "./images/coctails/margarita.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/coctails/margarita.jpg"
     },
     {
         id:112,
         title:'Виски Сауэр',
         category: 'coctails',
         price: 70,
-        img: "./images/coctails/whiskeysour.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/coctails/whiskeysour.jpg"
     },
     {
         id:113,
         title:'Бомба',
         category: 'coctails',
         price: 70,
-        img: "./images/coctails/labomba.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/coctails/labomba.jpg"
     },
     {
         id:114,
         title:'Фантастический',
         category: 'coctails',
         price: 70,
-        img: "./images/coctails/fantastic.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/coctails/fantastic.jpg"
     },
     {
         id:115,
         title:'Кровавая Мэри',
         category: 'coctails',
         price: 70,
-        img: "./images/coctails/bloodymary.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/coctails/bloodymary.jpg"
     },
     {
         id:116,
         title:'Белый рай',
         category: 'coctails',
         price: 70,
-        img: "./images/coctails/whiteparadise.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/coctails/whiteparadise.jpg"
     },
     {
         id:117,
         title:'Кофе по-ирландски',
         category: 'coctails',
         price: 70,
-        img: "./images/coctails/irishcoffee.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/coctails/irishcoffee.jpg"
     },
     {
         id:118,
         title:'Новая ракы 20cl',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/yeniraki.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/yeniraki.jpg"
     },
     {
         id:119,
         title:'Новая ракы 35cl',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/yeniraki.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/yeniraki.jpg"
     },
     {
         id:120,
         title:'Новая ракы 50cl',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/yeniraki.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/yeniraki.jpg"
     },
     {
         id:121,
         title:'Новая ракы 70cl',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/yeniraki.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/yeniraki.jpg"
     },
     {
         id:122,
         title:'Новая ракы 100cl',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/yeniraki.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/yeniraki.jpg"
     },
     {
         id:123,
         title:'Текирдаг 35cl',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/tekirdag.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/tekirdag.jpg"
     },
     {
         id:124,
         title:'Текирдаг 70cl',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/tekirdag.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/tekirdag.jpg"
     },
     {
         id:125,
         title:'Текирдаг 100cl',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/tekirdag.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/tekirdag.jpg"
     },
     {
         id:126,
         title:'Золотое шампанское Памуккале 75cl',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/goldchampagne.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/goldchampagne.jpg"
     },
     {
         id:127,
         title:'Фруктовое вино',
         category: 'localdrinks',
         price: 70,
-        img: "./images/localdrinks/meyvesarabi.jpg",
-        desc: 'Sebze ve pilav ile birlikte antrikot'
+        img: "./images/localdrinks/meyvesarabi.jpg"
     },
 ];
 const menuItems = document.querySelector('.menu-items');
@@ -1085,7 +1075,6 @@ function getGrill() {
         <h4>${item.title}</h4>
         <h4 class = 'price'>${item.price}₺</h4>
         </div>
-        <div class = 'menu-text'>${item.desc}</div>
         </div>
         </div>
         `
@@ -1103,7 +1092,6 @@ function getStarters() {
         <h4>${item.title}</h4>
         <h4 class = 'price'>${item.price}₺</h4>
         </div>
-        <div class = 'menu-text'>${item.desc}</div>
         </div>
         </div>
         `
@@ -1121,7 +1109,6 @@ function getFish() {
         <h4>${item.title}</h4>
         <h4 class = 'price'>${item.price}₺</h4>
         </div>
-        <div class = 'menu-text'>${item.desc}</div>
         </div>
         </div>
         `
@@ -1139,7 +1126,6 @@ function getOmlette() {
         <h4>${item.title}</h4>
         <h4 class = 'price'>${item.price}₺</h4>
         </div>
-        <div class = 'menu-text'>${item.desc}</div>
         </div>
         </div>
         `
@@ -1157,7 +1143,6 @@ function getPasta() {
         <h4>${item.title}</h4>
         <h4 class = 'price'>${item.price}₺</h4>
         </div>
-        <div class = 'menu-text'>${item.desc}</div>
         </div>
         </div>
         `
@@ -1175,7 +1160,6 @@ function getSalads() {
         <h4>${item.title}</h4>
         <h4 class = 'price'>${item.price}₺</h4>
         </div>
-        <div class = 'menu-text'>${item.desc}</div>
         </div>
         </div>
         `
@@ -1193,7 +1177,6 @@ function getSweet() {
         <h4>${item.title}</h4>
         <h4 class = 'price'>${item.price}₺</h4>
         </div>
-        <div class = 'menu-text'>${item.desc}</div>
         </div>
         </div>
         `
@@ -1211,7 +1194,6 @@ function getBeers() {
         <h4>${item.title}</h4>
         <h4 class = 'price'>${item.price}₺</h4>
         </div>
-        <div class = 'menu-text'>${item.desc}</div>
         </div>
         </div>
         `
@@ -1229,7 +1211,6 @@ function getLocalDrinks() {
         <h4>${item.title}</h4>
         <h4 class = 'price'>${item.price}₺</h4>
         </div>
-        <div class = 'menu-text'>${item.desc}</div>
         </div>
         </div>
         `
@@ -1247,7 +1228,6 @@ function getImportDrinks() {
         <h4>${item.title}</h4>
         <h4 class = 'price'>${item.price}₺</h4>
         </div>
-        <div class = 'menu-text'>${item.desc}</div>
         </div>
         </div>
         `
@@ -1265,7 +1245,6 @@ function getMixes() {
         <h4>${item.title}</h4>
         <h4 class = 'price'>${item.price}₺</h4>
         </div>
-        <div class = 'menu-text'>${item.desc}</div>
         </div>
         </div>
         `
@@ -1283,7 +1262,6 @@ function getCoctails() {
         <h4>${item.title}</h4>
         <h4 class = 'price'>${item.price}₺</h4>
         </div>
-        <div class = 'menu-text'>${item.desc}</div>
         </div>
         </div>
         `
@@ -1301,7 +1279,6 @@ function getColdDrinks() {
         <h4>${item.title}</h4>
         <h4 class = 'price'>${item.price}₺</h4>
         </div>
-        <div class = 'menu-text'>${item.desc}</div>
         </div>
         </div>
         `
@@ -1319,7 +1296,6 @@ function getHotDrinks() {
         <h4>${item.title}</h4>
         <h4 class = 'price'>${item.price}₺</h4>
         </div>
-        <div class = 'menu-text'>${item.desc}</div>
         </div>
         </div>
         `
