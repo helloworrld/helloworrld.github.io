@@ -3,14 +3,14 @@ const menu = [
         id:1,
         title:'Говядина',
         category: 'grill',
-        price: 65,
+        price: 110,
         img: "./images/grill-saute/antrikot.jpg"
     },
     {
         id:2,
         title:'Бараньи отбивные',
         category: 'grill',
-        price: 70,
+        price: 130,
         img: "./images/grill-saute/kuzupirzola.jpg"
     },
     {
@@ -24,7 +24,7 @@ const menu = [
         id:4,
         title:'Адана Шашлык',
         category: 'grill',
-        price: 70,
+        price: 90,
         img: "./images/grill-saute/adanasis.jpg"
     },
     {
@@ -45,35 +45,35 @@ const menu = [
         id:7,
         title:'Фрикадельки',
         category: 'grill',
-        price: 70,
+        price: 75,
         img: "./images/grill-saute/izgarakofte.jpg"
     },
     {
         id:8,
         title:'Смешанный гриль',
         category: 'grill',
-        price: 70,
+        price: 130,
         img: "./images/grill-saute/karisikizgara.jpg"
     },
     {
         id:9,
         title:'Овощи на гриле',
         category: 'grill',
-        price: 70,
+        price: 60,
         img: "./images/grill-saute/sebzeizgara.jpg"
     },
     {
         id:10,
         title:'Шницель',
         category: 'grill',
-        price: 70,
+        price: 90,
         img: "./images/grill-saute/pilicpane.jpg"
     },
     {
         id:11,
         title:'Жареная печень',
         category: 'grill',
-        price: 70,
+        price: 65,
         img: "./images/grill-saute/cigersote.jpg"
     },
     {
@@ -115,21 +115,21 @@ const menu = [
         id:17,
         title:'Жареная картошка',
         category: 'starters',
-        price: 25,
+        price: 30,
         img: "./images/starters/patateskizartmasi.jpg"
     },
     {
         id:18,
         title:'Фаршированные баклажаны',
         category: 'starters',
-        price: 50,
+        price: 55,
         img: "./images/starters/imambayildi.jpg"
     },
     {
         id:19,
         title:'Фаршированные баклажаны с мясом',
         category: 'starters',
-        price: 65,
+        price: 70,
         img: "./images/starters/karniyarik.jpg"
     },
     {
@@ -171,14 +171,14 @@ const menu = [
         id:26,
         title:'Рис',
         category: 'starters',
-        price: 70,
+        price: 25,
         img: "./images/starters/pilav.jpg"
     },
     {
         id:27,
         title:'Суп',
         category: 'starters',
-        price: 20,
+        price: 25,
         img: "./images/starters/corba.jpg"
     },
     {
@@ -187,6 +187,13 @@ const menu = [
         category: 'starters',
         price: 20,
         img: "./images/starters/humus.jpg"
+    },
+    {
+        id:28,
+        title:'Acı Sos',
+        category: 'starters',
+        price: 35,
+        img: "./images/starters/aci-sos.jpg"
     },
     {
         id:28,
@@ -199,112 +206,112 @@ const menu = [
         id:29,
         title:'Рыба морской лещ',
         category: 'fish',
-        price: 70,
+        price: 85,
         img: "./images/fish/cipura.jpg"
     },
     {
         id:28,
         title:'Обычный омлет',
         category: 'omlette',
-        price: 70,
+        price: 40,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:29,
         title:'Грибной омлет',
         category: 'omlette',
-        price: 70,
+        price: 45,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:30,
         title:'Сырный омлет',
         category: 'omlette',
-        price: 70,
+        price: 45,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:31,
         title:'Томатный омлет',
         category: 'omlette',
-        price: 70,
+        price: 45,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:32,
         title:'Картофельный омлет',
         category: 'omlette',
-        price: 70,
+        price: 45,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:33,
         title:'Смешанный омлет',
         category: 'omlette',
-        price: 70,
+        price: 45,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:34,
         title:'Паста с томатным соусом',
         category: 'pasta',
-        price: 70,
+        price: 55,
         img: "./images/pasta/domatessoslumakarna.jpg"
     },
     {
         id:35,
         title:'Паста с мясным соусом',
         category: 'pasta',
-        price: 70,
+        price: 55,
         img: "./images/pasta/kiymasoslumakarna.jpg"
     },
     {
         id:36,
         title:'Сезонный салат',
         category: 'salad',
-        price: 70,
+        price: 25,
         img: "./images/salad/mevsimsalatasi.jpg"
     },
     {
         id:37,
         title:'Зеленый салат',
         category: 'salad',
-        price: 70,
+        price: 25,
         img: "./images/salad/yesilsalata.jpg"
     },
     {
         id:38,
         title:'Салат из тунца',
         category: 'salad',
-        price: 70,
+        price: 45,
         img: "./images/salad/tonbaliklisalata.jpg"
     },
     {
         id:39,
         title:'сырный салат',
         category: 'salad',
-        price: 70,
+        price: 40,
         img: "./images/salad/peynirlisalata.jpg"
     },
     {
         id:39,
         title:'Mantarlı Salata',
         category: 'salad',
-        price: 70,
+        price: 45,
         img: "./images/salad/mantarlisalata.jpg"
     },
     {
         id:40,
         title: 'Пудинг',
         category: 'delight',
-        price: 70,
+        price: 25,
         img: "./images/sweets/puding.jpg"
     },
     {
         id:41,
         title:'Baklava',
         category: 'delight',
-        price: 70,
+        price: 40,
         img: "./images/sweets/turktatlilari.jpg"
     },
     {
@@ -332,35 +339,35 @@ const menu = [
         id:44,
         title:'Мороженое',
         category: 'delight',
-        price: 70,
+        price: 30,
         img: "./images/sweets/dondurma.jpg"
     },
     {
         id:45,
         title:'Фрукты',
         category: 'delight',
-        price: 70,
+        price: 35,
         img: "./images/sweets/sezonmeyve.jpg"
     },
     {
         id:46,
         title:'Эфес Пиво',
         category: 'beers',
-        price: 25,
+        price: 40,
         img: "./images/beers/efesfici.jpg"
     },
     {
         id:47,
         title:'Efes Malt',
         category: 'beers',
-        price: 50,
+        price: 45,
         img: "./images/beers/efesmalt.jpg"
     },
     {
         id:47,
         title:'Efes Özel Seri',
         category: 'beers',
-        price: 50,
+        price: 45,
         img: "./images/beers/efesozelseri.jpg"
     },
     {
@@ -374,7 +381,7 @@ const menu = [
         id:47,
         title:'Tuborg',
         category: 'beers',
-        price: 50,
+        price: 45,
         img: "./images/beers/tuborg.jpg"
     },
     {
@@ -416,7 +423,7 @@ const menu = [
         id:47,
         title:'Carlsberg',
         category: 'beers',
-        price: 50,
+        price: 80,
         img: "./images/beers/carlsberg.jpg"
     },
     {
@@ -430,238 +437,266 @@ const menu = [
         id:47,
         title:'Blanc',
         category: 'beers',
-        price: 50,
+        price: 75,
         img: "./images/beers/blanc.jpg"
     },
     {
         id:47,
         title:'Desperados',
         category: 'beers',
-        price: 50,
+        price: 80,
         img: "./images/beers/desperados.jpg"
     },
     {
         id:47,
         title:'Duvel',
         category: 'beers',
-        price: 50,
+        price: 60,
         img: "./images/beers/duvel.jpg"
     },
     {
         id:47,
         title:'Leffe Blonde',
         category: 'beers',
-        price: 50,
+        price: 80,
         img: "./images/beers/leffe.jpeg"
     },
     {
         id:47,
         title:'Sol',
         category: 'beers',
-        price: 50,
+        price: 75,
         img: "./images/beers/sol.jpeg"
     },
     {
         id:47,
         title:'Guiness',
         category: 'beers',
-        price: 50,
+        price: 90,
         img: "./images/beers/guiness.jpg"
     },
     {
         id:49,
         title:'Амстердам',
         category: 'beers',
-        price: 80,
+        price: 90,
         img: "./images/beers/amsterdam.png"
     },
     {
         id:50,
         title:'Миллер',
         category: 'beers',
-        price: 60,
+        price: 75,
         img: "./images/beers/miller.jpg"
     },
     {
         id:51,
         title:'Бекс',
         category: 'beers',
-        price: 60,
+        price: 75,
         img: "./images/beers/becks.jpg"
+    },
+    {
+        id:51,
+        title:'Weihenstephaner Hefe weIssbier',
+        category: 'beers',
+        price: 75,
+        img: "./images/beers/weihenstephaner-hefe.png"
+    },
+    {
+        id:51,
+        title:'Weihenstephaner Vitus',
+        category: 'beers',
+        price: 90,
+        img: "./images/beers/weihenstephaner-vitus.png"
+    },
+    {
+        id:51,
+        title:'Grimbergen Blonde',
+        category: 'beers',
+        price: 80,
+        img: "./images/beers/grimbergen-blonde.jpg"
+    },
+    {
+        id:51,
+        title:'Grimbergen Double Ambree',
+        category: 'beers',
+        price: 80,
+        img: "./images/beers/grimbergen-double-ambree.jpg"
     },
     {
         id:52,
         title:'Raki',
         category: 'localdrinks',
-        price: 70,
+        price: 45,
         img: "./images/localdrinks/raki.jpg"
     },
     {
         id:52,
         title:'Водка',
         category: 'localdrinks',
-        price: 70,
+        price: 50,
         img: "./images/localdrinks/votka.jpg"
     },
     {
         id:53,
         title:'Джин',
         category: 'localdrinks',
-        price: 70,
+        price: 50,
         img: "./images/localdrinks/cin.jpg"
     },
     {
         id:54,
         title:'бренди',
         category: 'localdrinks',
-        price: 70,
+        price: 50,
         img: "./images/localdrinks/brendi.jpg"
     },
     {
         id:55,
         title:'коньяк',
         category: 'localdrinks',
-        price: 70,
+        price: 50,
         img: "./images/localdrinks/kanyak.jpg"
     },
     {
         id:56,
         title:'Ликер',
         category: 'localdrinks',
-        price: 70,
+        price: 50,
         img: "./images/localdrinks/likor.jpg"
     },
     {
         id:57,
         title:'Абсолют',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/absolut.jpg"
     },
     {
         id:58,
         title:'Бакарди',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/bacardi.jpg"
     },
     {
         id:59,
         title:'мартини',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/martini.jpg"
     },
     {
         id:60,
         title:'Кампари',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/campari.jpg"
     },
     {
         id:61,
         title:'Гордон Джин',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/gordoncin.png"
     },
     {
         id:62,
         title:'Малибу',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/malibu.jpg"
     },
     {
         id:63,
         title:'Бейлис',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/baileys.jpg"
     },
     {
         id:64,
         title:'Archers',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/archers.jpg"
     },
     {
         id:65,
         title:'Калуа',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/kahlua.jpg"
     },
     {
         id:66,
         title:'ликер сафари',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/safari.jpg"
     },
     {
         id:67,
         title:'Джонни Уокер',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/johnniewalker.jpg"
     },
     {
         id:68,
         title:'Jack Daniels',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/jackdaniels.jpg"
     },
     {
         id:69,
         title:'J&B',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/jb.jpg"
     },
     {
         id:70,
         title:'Баллантины',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/ballentines.jpg"
     },
     {
         id:71,
         title:'Chivas Regal',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/chivasregal.jpg"
     },
     {
         id:72,
         title:'Текила',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/tequila.jpg"
     },
     {
         id:73,
         title:'Бакарди-Кола',
         category: 'mixed',
-        price: 70,
+        price: 90,
         img: "./images/mixes/bacardi-kola.jpg"
     },
     {
         id:74,
         title:'Кампари-Оранж',
         category: 'mixed',
-        price: 70,
+        price: 90,
         img: "./images/mixes/campari-orange.jpg"
     },
     {
         id:75,
         title:'Виски-Сода',
         category: 'mixed',
-        price: 70,
+        price: 90,
         img: "./images/mixes/viski-soda.jpg"
     },
     {
@@ -696,21 +731,21 @@ const menu = [
         id:80,
         title:'Памуккале Сенфони Драй/Трокен',
         category: 'localdrinks',
-        price: 70,
+        price: 50,
         img: "./images/localdrinks/semidryhalbtrocken.jpg"
     },
     {
         id:81,
         title:'Памуккале Полусухое/Хальбтрокен',
         category: 'localdrinks',
-        price: 70,
+        price: 55,
         img: "./images/localdrinks/semidryhalbtrocken.jpg"
     },
     {
         id:82,
         title:'Памуккале Сладкий/Süb',
         category: 'localdrinks',
-        price: 70,
+        price: 60,
         img: "./images/localdrinks/semidryhalbtrocken.jpg"
     },
     {
@@ -731,224 +766,231 @@ const menu = [
         id:85,
         title:'Памуккале Пино Шардоне',
         category: 'localdrinks',
-        price: 70,
+        price: 80,
         img: "./images/localdrinks/pinotchardonnay.jpg"
+    },
+    {
+        id:86,
+        title:'Pamukkale Kalecik Karası',
+        category: 'localdrinks',
+        price: 80,
+        img: "./images/localdrinks/w.jpg"
     },
     {
         id:86,
         title:'Памуккале Шираз',
         category: 'localdrinks',
-        price: 70,
+        price: 80,
         img: "./images/localdrinks/semidryhalbtrocken.jpg"
     },
     {
         id:87,
         title:'Кока-Кола',
         category: 'colddrinks',
-        price: 70,
+        price: 15,
         img: "./images/softdrinks/kola.png"
     },
     {
         id:88,
         title:'фанта',
         category: 'colddrinks',
-        price: 70,
+        price: 15,
         img: "./images/softdrinks/fanta.jpg"
     },
     {
         id:89,
         title:'Спрайт',
         category: 'colddrinks',
-        price: 70,
+        price: 15,
         img: "./images/softdrinks/sprite.png"
     },
     {
         id:90,
         title:'чай со льдом',
         category: 'colddrinks',
-        price: 70,
+        price: 15,
         img: "./images/softdrinks/icetea.jpg"
     },
     {
         id:91,
         title:'Ред Булл',
         category: 'colddrinks',
-        price: 70,
+        price: 30,
         img: "./images/softdrinks/redbull.jpg"
     },
     {
         id:92,
         title:'Швепс',
         category: 'colddrinks',
-        price: 70,
+        price: 25,
         img: "./images/softdrinks/schweppes.jpg"
     },
     {
         id:93,
         title:'Сок',
         category: 'colddrinks',
-        price: 70,
+        price: 25,
         img: "./images/softdrinks/meyvesuyu.jpg"
     },
     {
         id:94,
         title:'Свежий апельсиновый сок',
         category: 'colddrinks',
-        price: 70,
+        price: 35,
         img: "./images/softdrinks/portakalsuyu.jpg"
     },
     {
         id:95,
         title:'Сода',
         category: 'colddrinks',
-        price: 70,
+        price: 15,
         img: "./images/softdrinks/madensuyu.jpg"
     },
     {
         id:96,
         title:'Большая бутылка воды',
         category: 'colddrinks',
-        price: 70,
+        price: 15,
         img: "./images/softdrinks/bsu.jpg"
     },
     {
         id:98,
         title:'Чай',
         category: 'hotdrinks',
-        price: 70,
+        price: 10,
         img: "./images/hot-drinks/cay.jpg"
     },
     {
         id:99,
         title:'Кофе по-турецки',
         category: 'hotdrinks',
-        price: 82,
+        price: 25,
         img: "./images/hot-drinks/turkkahvesi.jpg"
     },
     {
         id:100,
         title:'Яблочный чай',
         category: 'hotdrinks',
-        price: 70,
+        price: 15,
         img: "./images/hot-drinks/elmacayi.jpg"
     },
     {
         id:101,
         title:'Нескафе',
         category: 'hotdrinks',
-        price: 70,
+        price: 25,
         img: "./images/hot-drinks/nescafe.jpg"
     },
     {
         id:102,
         title:'Капучино',
         category: 'hotdrinks',
-        price: 70,
+        price: 40,
         img: "./images/hot-drinks/cappuccino.jpg"
     },
     {
         id:103,
         title:'Горячий шоколад',
         category: 'hotdrinks',
-        price: 70,
+        price: 40,
         img: "./images/hot-drinks/sicakcikolata.jpg"
     },
     {
         id:104,
         title:'Кайас Коктейль',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/kayaskokteyl.jpg"
     },
     {
         id:105,
         title:'Добро пожаловать Коктейль',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/hosgeldinkokteyl.jpg"
     },
     {
         id:106,
         title:'Б-52',
         category: 'coctails',
-        price: 70,
+        price: 110,
         img: "./images/coctails/b52.jpg"
     },
     {
         id:107,
         title:'Секс на пляже',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/sexonthebeach.jpg"
     },
     {
         id:108,
         title:'Пина Колада',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/pinekolada.jpg"
     },
     {
         id:109,
         title:'Текила санрайз',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/tequilasunrise.jpg"
     },
     {
         id:110,
-        title:'Calprinia',
+        title:'Mojito',
         category: 'coctails',
-        price: 70,
-        img: "./images/coctails/calprinia.jpg"
+        price: 100,
+        img: "./images/coctails/mojito.jpg"
     },
     {
         id:111,
         title:'Маргарита',
         category: 'coctails',
-        price: 70,
+        price: 110,
         img: "./images/coctails/margarita.jpg"
     },
     {
         id:112,
         title:'Виски Сауэр',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/whiskeysour.jpg"
     },
     {
         id:113,
         title:'Бомба',
         category: 'coctails',
-        price: 70,
+        price: 140,
         img: "./images/coctails/labomba.jpg"
     },
     {
         id:114,
         title:'Фантастический',
         category: 'coctails',
-        price: 70,
+        price: 140,
         img: "./images/coctails/fantastic.jpg"
     },
     {
         id:115,
         title:'Кровавая Мэри',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/bloodymary.jpg"
     },
     {
         id:116,
         title:'Белый рай',
         category: 'coctails',
-        price: 70,
+        price: 140,
         img: "./images/coctails/whiteparadise.jpg"
     },
     {
         id:117,
         title:'Кофе по-ирландски',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/irishcoffee.jpg"
     },
     {
@@ -1011,14 +1053,14 @@ const menu = [
         id:126,
         title:'Золотое шампанское Памуккале 75cl',
         category: 'localdrinks',
-        price: 70,
+        price: 500,
         img: "./images/localdrinks/goldchampagne.jpg"
     },
     {
         id:127,
         title:'Фруктовое вино',
         category: 'localdrinks',
-        price: 70,
+        price: 400,
         img: "./images/localdrinks/meyvesarabi.jpg"
     },
 ];
@@ -1188,7 +1230,9 @@ function getBeers() {
         menuItems.innerHTML += 
         `
         <div class = "flex-container">
+        <div>
         <img src=${item.img} alt = ${item.title}>
+        </div>
         <div class = 'menu-info'>
         <div class = 'menu-title'>
         <h4>${item.title}</h4>

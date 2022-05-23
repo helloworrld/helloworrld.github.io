@@ -3,14 +3,14 @@ const menu = [
         id:1,
         title:'牛肉',
         category: 'grill',
-        price: 65,
+        price: 110,
         img: "./images/grill-saute/antrikot.jpg"
     },
     {
         id:2,
         title:'羊排',
         category: 'grill',
-        price: 70,
+        price: 130,
         img: "./images/grill-saute/kuzupirzola.jpg"
     },
     {
@@ -24,7 +24,7 @@ const menu = [
         id:4,
         title:'阿达纳串烧',
         category: 'grill',
-        price: 70,
+        price: 90,
         img: "./images/grill-saute/adanasis.jpg"
     },
     {
@@ -45,35 +45,35 @@ const menu = [
         id:7,
         title:'肉丸',
         category: 'grill',
-        price: 70,
+        price: 75,
         img: "./images/grill-saute/izgarakofte.jpg"
     },
     {
         id:8,
         title:'混合烤架',
         category: 'grill',
-        price: 70,
+        price: 130,
         img: "./images/grill-saute/karisikizgara.jpg"
     },
     {
         id:9,
         title:'烤蔬菜',
         category: 'grill',
-        price: 70,
+        price: 60,
         img: "./images/grill-saute/sebzeizgara.jpg"
     },
     {
         id:10,
         title:'肉片',
         category: 'grill',
-        price: 70,
+        price: 90,
         img: "./images/grill-saute/pilicpane.jpg"
     },
     {
         id:11,
         title:'炒肝',
         category: 'grill',
-        price: 70,
+        price: 65,
         img: "./images/grill-saute/cigersote.jpg"
     },
     {
@@ -101,7 +101,7 @@ const menu = [
         id:15,
         title:'砂锅蘑菇',
         category: 'grill',
-        price: 70,
+        price: 100,
         img: "./images/grill-saute/guvecmantarli.jpg"
     },
     {
@@ -115,21 +115,21 @@ const menu = [
         id:17,
         title:'炸土豆',
         category: 'starters',
-        price: 25,
+        price: 30,
         img: "./images/starters/patateskizartmasi.jpg"
     },
     {
         id:18,
         title:'酿茄子',
         category: 'starters',
-        price: 50,
+        price: 55,
         img: "./images/starters/imambayildi.jpg"
     },
     {
         id:19,
         title:'肉酿茄子',
         category: 'starters',
-        price: 65,
+        price: 70,
         img: "./images/starters/karniyarik.jpg"
     },
     {
@@ -171,14 +171,14 @@ const menu = [
         id:26,
         title:'白饭',
         category: 'starters',
-        price: 70,
+        price: 25,
         img: "./images/starters/pilav.jpg"
     },
     {
         id:27,
         title:'汤',
         category: 'starters',
-        price: 20,
+        price: 25,
         img: "./images/starters/corba.jpg"
     },
     {
@@ -187,6 +187,13 @@ const menu = [
         category: 'starters',
         price: 20,
         img: "./images/starters/humus.jpg"
+    },
+    {
+        id:28,
+        title:'Acı Sos',
+        category: 'starters',
+        price: 35,
+        img: "./images/starters/aci-sos.jpg"
     },
     {
         id:28,
@@ -199,112 +206,112 @@ const menu = [
         id:29,
         title:'海鲷鱼',
         category: 'fish',
-        price: 70,
+        price: 85,
         img: "./images/fish/cipura.jpg"
     },
     {
         id:28,
         title:'普通煎蛋卷',
         category: 'omlette',
-        price: 70,
+        price: 40,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:29,
         title:'蘑菇煎蛋卷',
         category: 'omlette',
-        price: 70,
+        price: 45,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:30,
         title:'芝士蛋卷',
         category: 'omlette',
-        price: 70,
+        price: 45,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:31,
         title:'番茄煎蛋卷',
         category: 'omlette',
-        price: 70,
+        price: 45,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:32,
         title:'土豆煎蛋卷',
         category: 'omlette',
-        price: 70,
+        price: 45,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:33,
         title:'混合煎蛋',
         category: 'omlette',
-        price: 70,
+        price: 45,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:34,
         title:'番茄酱意大利面',
         category: 'pasta',
-        price: 70,
+        price: 55,
         img: "./images/pasta/domatessoslumakarna.jpg"
     },
     {
         id:35,
         title:'肉酱意大利面',
         category: 'pasta',
-        price: 70,
+        price: 55,
         img: "./images/pasta/kiymasoslumakarna.jpg"
     },
     {
         id:36,
         title:'时令沙拉',
         category: 'salad',
-        price: 70,
+        price: 25,
         img: "./images/salad/mevsimsalatasi.jpg"
     },
     {
         id:37,
         title:'绿色的沙拉',
         category: 'salad',
-        price: 70,
+        price: 25,
         img: "./images/salad/yesilsalata.jpg"
     },
     {
         id:38,
         title:'金枪鱼沙拉',
         category: 'salad',
-        price: 70,
+        price: 45,
         img: "./images/salad/tonbaliklisalata.jpg"
     },
     {
         id:39,
         title:'奶酪沙拉',
         category: 'salad',
-        price: 70,
+        price: 40,
         img: "./images/salad/peynirlisalata.jpg"
     },
     {
         id:39,
         title:'Mantarlı Salata',
         category: 'salad',
-        price: 70,
+        price: 45,
         img: "./images/salad/mantarlisalata.jpg"
     },
     {
         id:40,
         title:'布丁',
         category: 'delight',
-        price: 70,
+        price: 25,
         img: "./images/sweets/puding.jpg"
     },
     {
         id:41,
         title:'Baklava',
         category: 'delight',
-        price: 70,
+        price: 40,
         img: "./images/sweets/turktatlilari.jpg"
     },
     {
@@ -332,35 +339,35 @@ const menu = [
         id:44,
         title:'冰淇淋',
         category: 'delight',
-        price: 70,
+        price: 30,
         img: "./images/sweets/dondurma.jpg"
     },
     {
         id:45,
         title:'水果',
         category: 'delight',
-        price: 70,
+        price: 35,
         img: "./images/sweets/sezonmeyve.jpg"
     },
     {
         id:46,
         title:'埃菲斯 啤酒',
         category: 'beers',
-        price: 25,
+        price: 40,
         img: "./images/beers/efesfici.jpg"
     },
     {
         id:47,
         title:'Efes Malt',
         category: 'beers',
-        price: 50,
+        price: 45,
         img: "./images/beers/efesmalt.jpg"
     },
     {
         id:47,
         title:'Efes Özel Seri',
         category: 'beers',
-        price: 50,
+        price: 45,
         img: "./images/beers/efesozelseri.jpg"
     },
     {
@@ -374,7 +381,7 @@ const menu = [
         id:47,
         title:'Tuborg',
         category: 'beers',
-        price: 50,
+        price: 45,
         img: "./images/beers/tuborg.jpg"
     },
     {
@@ -416,7 +423,7 @@ const menu = [
         id:47,
         title:'Carlsberg',
         category: 'beers',
-        price: 50,
+        price: 80,
         img: "./images/beers/carlsberg.jpg"
     },
     {
@@ -430,238 +437,266 @@ const menu = [
         id:47,
         title:'Blanc',
         category: 'beers',
-        price: 50,
+        price: 75,
         img: "./images/beers/blanc.jpg"
     },
     {
         id:47,
         title:'Desperados',
         category: 'beers',
-        price: 50,
+        price: 80,
         img: "./images/beers/desperados.jpg"
     },
     {
         id:47,
         title:'Duvel',
         category: 'beers',
-        price: 50,
+        price: 60,
         img: "./images/beers/duvel.jpg"
     },
     {
         id:47,
         title:'Leffe Blonde',
         category: 'beers',
-        price: 50,
+        price: 80,
         img: "./images/beers/leffe.jpeg"
     },
     {
         id:47,
         title:'Sol',
         category: 'beers',
-        price: 50,
+        price: 75,
         img: "./images/beers/sol.jpeg"
     },
     {
         id:47,
         title:'Guiness',
         category: 'beers',
-        price: 50,
+        price: 90,
         img: "./images/beers/guiness.jpg"
     },
     {
         id:49,
         title:'阿姆斯特丹',
         category: 'beers',
-        price: 80,
+        price: 90,
         img: "./images/beers/amsterdam.png"
     },
     {
         id:50,
         title:'米勒啤酒',
         category: 'beers',
-        price: 60,
+        price: 75,
         img: "./images/beers/miller.jpg"
     },
     {
         id:51,
         title:'贝克啤酒',
         category: 'beers',
-        price: 60,
+        price: 75,
         img: "./images/beers/becks.jpg"
+    },
+    {
+        id:51,
+        title:'Weihenstephaner Hefe weIssbier',
+        category: 'beers',
+        price: 75,
+        img: "./images/beers/weihenstephaner-hefe.png"
+    },
+    {
+        id:51,
+        title:'Weihenstephaner Vitus',
+        category: 'beers',
+        price: 90,
+        img: "./images/beers/weihenstephaner-vitus.png"
+    },
+    {
+        id:51,
+        title:'Grimbergen Blonde',
+        category: 'beers',
+        price: 80,
+        img: "./images/beers/grimbergen-blonde.jpg"
+    },
+    {
+        id:51,
+        title:'Grimbergen Double Ambree',
+        category: 'beers',
+        price: 80,
+        img: "./images/beers/grimbergen-double-ambree.jpg"
     },
     {
         id:52,
         title:'Raki',
         category: 'localdrinks',
-        price: 70,
+        price: 45,
         img: "./images/localdrinks/raki.jpg"
     },
     {
         id:52,
         title:'伏特加',
         category: 'localdrinks',
-        price: 70,
+        price: 50,
         img: "./images/localdrinks/votka.jpg"
     },
     {
         id:53,
         title:'杜松子酒',
         category: 'localdrinks',
-        price: 70,
+        price: 50,
         img: "./images/localdrinks/cin.jpg"
     },
     {
         id:54,
         title:'白兰地',
         category: 'localdrinks',
-        price: 70,
+        price: 50,
         img: "./images/localdrinks/brendi.jpg"
     },
     {
         id:55,
         title:'科涅克白兰地',
         category: 'localdrinks',
-        price: 70,
+        price: 50,
         img: "./images/localdrinks/kanyak.jpg"
     },
     {
         id:56,
         title:'酒',
         category: 'localdrinks',
-        price: 70,
+        price: 50,
         img: "./images/localdrinks/likor.jpg"
     },
     {
         id:57,
         title:'绝对',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/absolut.jpg"
     },
     {
         id:58,
         title:'百加得',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/bacardi.jpg"
     },
     {
         id:59,
         title:'马提尼',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/martini.jpg"
     },
     {
         id:60,
         title:'金巴利',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/campari.jpg"
     },
     {
         id:61,
         title:'戈登杜松子酒',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/gordoncin.png"
     },
     {
         id:62,
         title:'马里布',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/malibu.jpg"
     },
     {
         id:63,
         title:'百利甜酒',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/baileys.jpg"
     },
     {
         id:64,
         title:'弓箭手的酒',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/archers.jpg"
     },
     {
         id:65,
         title:'甘露酒',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/kahlua.jpg"
     },
     {
         id:66,
         title:'苹果浏览器',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/safari.jpg"
     },
     {
         id:67,
         title:'尊尼获加',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/johnniewalker.jpg"
     },
     {
         id:68,
         title:'杰克丹尼',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/jackdaniels.jpg"
     },
     {
         id:69,
         title:'J&B',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/jb.jpg"
     },
     {
         id:70,
         title:'百龄坛',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/ballentines.jpg"
     },
     {
         id:71,
         title:'芝华士',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/chivasregal.jpg"
     },
     {
         id:72,
         title:'龙舌兰酒',
         category: 'importdrinks',
-        price: 70,
+        price: 90,
         img: "./images/importdrinks/tequila.jpg"
     },
     {
         id:73,
         title:'百加得可乐',
         category: 'mixed',
-        price: 70,
+        price: 90,
         img: "./images/mixes/bacardi-kola.jpg"
     },
     {
         id:74,
         title:'金巴利橙',
         category: 'mixed',
-        price: 70,
+        price: 90,
         img: "./images/mixes/campari-orange.jpg"
     },
     {
         id:75,
         title:'威士忌苏打水',
         category: 'mixed',
-        price: 70,
+        price: 90,
         img: "./images/mixes/viski-soda.jpg"
     },
     {
@@ -696,21 +731,21 @@ const menu = [
         id:80,
         title:'棉花堡芥末干/干',
         category: 'localdrinks',
-        price: 70,
+        price: 50,
         img: "./images/localdrinks/semidryhalbtrocken.jpg"
     },
     {
         id:81,
         title:'棉花堡半干/半干',
         category: 'localdrinks',
-        price: 70,
+        price: 55,
         img: "./images/localdrinks/semidryhalbtrocken.jpg"
     },
     {
         id:82,
         title:'棉花堡甜/子',
         category: 'localdrinks',
-        price: 70,
+        price: 60,
         img: "./images/localdrinks/semidryhalbtrocken.jpg"
     },
     {
@@ -731,8 +766,15 @@ const menu = [
         id:85,
         title:'棉花堡比诺霞多丽',
         category: 'localdrinks',
-        price: 70,
+        price: 80,
         img: "./images/localdrinks/pinotchardonnay.jpg"
+    },
+    {
+        id:86,
+        title:'Pamukkale Kalecik Karası',
+        category: 'localdrinks',
+        price: 80,
+        img: "./images/localdrinks/w.jpg"
     },
     {
         id:86,
@@ -745,210 +787,210 @@ const menu = [
         id:87,
         title:'可口可乐',
         category: 'colddrinks',
-        price: 70,
+        price: 15,
         img: "./images/softdrinks/kola.png"
     },
     {
         id:88,
         title:'芬达',
         category: 'colddrinks',
-        price: 70,
+        price: 15,
         img: "./images/softdrinks/fanta.jpg"
     },
     {
         id:89,
         title:'雪碧',
         category: 'colddrinks',
-        price: 70,
+        price: 15,
         img: "./images/softdrinks/sprite.png"
     },
     {
         id:90,
         title:'冰茶',
         category: 'colddrinks',
-        price: 70,
+        price: 15,
         img: "./images/softdrinks/icetea.jpg"
     },
     {
         id:91,
         title:'红牛',
         category: 'colddrinks',
-        price: 70,
+        price: 30,
         img: "./images/softdrinks/redbull.jpg"
     },
     {
         id:92,
         title:'史威士',
         category: 'colddrinks',
-        price: 70,
+        price: 25,
         img: "./images/softdrinks/schweppes.jpg"
     },
     {
         id:93,
         title:'果汁',
         category: 'colddrinks',
-        price: 70,
+        price: 25,
         img: "./images/softdrinks/meyvesuyu.jpg"
     },
     {
         id:94,
         title:'鲜橙汁',
         category: 'colddrinks',
-        price: 70,
+        price: 35,
         img: "./images/softdrinks/portakalsuyu.jpg"
     },
     {
         id:95,
         title:'苏打',
         category: 'colddrinks',
-        price: 70,
+        price: 15,
         img: "./images/softdrinks/madensuyu.jpg"
     },
     {
         id:96,
         title:'大瓶水',
         category: 'colddrinks',
-        price: 70,
+        price: 15,
         img: "./images/softdrinks/bsu.jpg"
     },
     {
         id:98,
         title:'茶',
         category: 'hotdrinks',
-        price: 70,
+        price: 10,
         img: "./images/hot-drinks/cay.jpg"
     },
     {
         id:99,
         title:'土耳其咖啡',
         category: 'hotdrinks',
-        price: 82,
+        price: 25,
         img: "./images/hot-drinks/turkkahvesi.jpg"
     },
     {
         id:100,
         title:'苹果茶',
         category: 'hotdrinks',
-        price: 70,
+        price: 15,
         img: "./images/hot-drinks/elmacayi.jpg"
     },
     {
         id:101,
         title:'雀巢咖啡',
         category: 'hotdrinks',
-        price: 70,
+        price: 25,
         img: "./images/hot-drinks/nescafe.jpg"
     },
     {
         id:102,
         title:'卡布奇诺',
         category: 'hotdrinks',
-        price: 70,
+        price: 40,
         img: "./images/hot-drinks/cappuccino.jpg"
     },
     {
         id:103,
         title:'热可可',
         category: 'hotdrinks',
-        price: 70,
+        price: 40,
         img: "./images/hot-drinks/sicakcikolata.jpg"
     },
     {
         id:104,
         title:'Kayaş 鸡尾酒',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/kayaskokteyl.jpg"
     },
     {
         id:105,
         title:'欢迎 鸡尾酒',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/hosgeldinkokteyl.jpg"
     },
     {
         id:106,
         title:'乙-五十二',
         category: 'coctails',
-        price: 70,
+        price: 110,
         img: "./images/coctails/b52.jpg"
     },
     {
         id:107,
         title:'海滩上的性爱',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/sexonthebeach.jpg"
     },
     {
         id:108,
         title:'飘香飘香',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/pinekolada.jpg"
     },
     {
         id:109,
         title:'龙舌兰日出',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/tequilasunrise.jpg"
     },
     {
         id:110,
-        title:'Calprinia',
+        title:'Mojito',
         category: 'coctails',
-        price: 70,
-        img: "./images/coctails/calprinia.jpg"
+        price: 100,
+        img: "./images/coctails/mojito.jpg"
     },
     {
         id:111,
         title:'玛格丽塔',
         category: 'coctails',
-        price: 70,
+        price: 110,
         img: "./images/coctails/margarita.jpg"
     },
     {
         id:112,
         title:'威士忌酸',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/whiskeysour.jpg"
     },
     {
         id:113,
         title:'炸弹',
         category: 'coctails',
-        price: 70,
+        price: 140,
         img: "./images/coctails/labomba.jpg"
     },
     {
         id:114,
         title:'极好的',
         category: 'coctails',
-        price: 70,
+        price: 140,
         img: "./images/coctails/fantastic.jpg"
     },
     {
         id:115,
         title:'血腥玛丽',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/bloodymary.jpg"
     },
     {
         id:116,
         title:'白色天堂',
         category: 'coctails',
-        price: 70,
+        price: 140,
         img: "./images/coctails/whiteparadise.jpg"
     },
     {
         id:117,
         title:'爱尔兰咖啡',
         category: 'coctails',
-        price: 70,
+        price: 120,
         img: "./images/coctails/irishcoffee.jpg"
     },
     {
@@ -1011,14 +1053,14 @@ const menu = [
         id:126,
         title:'棉花堡黄金香槟 75cl',
         category: 'localdrinks',
-        price: 70,
+        price: 500,
         img: "./images/localdrinks/goldchampagne.jpg"
     },
     {
         id:127,
         title:'果酒',
         category: 'localdrinks',
-        price: 70,
+        price: 400,
         img: "./images/localdrinks/meyvesarabi.jpg"
     },
 ];
@@ -1206,7 +1248,9 @@ function getBeers() {
         menuItems.innerHTML += 
         `
         <div class = "flex-container">
+        <div>
         <img src=${item.img} alt = ${item.title}>
+        </div>
         <div class = 'menu-info'>
         <div class = 'menu-title'>
         <h4>${item.title}</h4>
