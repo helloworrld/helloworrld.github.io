@@ -775,7 +775,7 @@ const menu = [
         title:'Pamukkale Kalecik Karası',
         category: 'localdrinks',
         price: 80,
-        img: "./images/localdrinks/w.jpg"
+        img: "./images/localdrinks/semidryhalbtrocken.jpg"
     },
     {
         id:86,
