@@ -105,6 +105,13 @@ const menu = [
         img: "./images/grill-saute/guvecmantarli.jpg"
     },
     {
+        id:15,
+        title:'Kalamar Güveç',
+        category: 'grill',
+        price: 130,
+        img: "./images/grill-saute/squid.jpg"
+    },
+    {
         id:16,
         title:'春卷',
         category: 'starters',

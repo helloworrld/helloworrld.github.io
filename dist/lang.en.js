@@ -22,7 +22,7 @@ const menu = [
     },
     {
         id:4,
-        title:'Adana Skewers',
+        title:'Adana Kebab',
         category: 'grill',
         price: 90,
         img: "./images/grill-saute/adanasis.jpg"
@@ -105,8 +105,15 @@ const menu = [
         img: "./images/grill-saute/guvecmantarli.jpg"
     },
     {
+        id:15,
+        title:'Calamari Stew',
+        category: 'grill',
+        price: 130,
+        img: "./images/grill-saute/squid.jpg"
+    },
+    {
         id:16,
-        title:'Spring Roll',
+        title:'Cheese Roll',
         category: 'starters',
         price: 25,
         img: "./images/starters/sigaraboregi.jpg"
@@ -190,7 +197,7 @@ const menu = [
     },
     {
         id:28,
-        title:'Acı Sos',
+        title:'Pepper Tomato Sauce',
         category: 'starters',
         price: 35,
         img: "./images/starters/aci-sos.jpg"
@@ -316,7 +323,7 @@ const menu = [
     },
     {
         id:41,
-        title:'Dondurmalı Baklava',
+        title:'Baklava with Icecream',
         category: 'delight',
         price: 70,
         img: "./images/sweets/dondurmalibaklava.jpg"

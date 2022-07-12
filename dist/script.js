@@ -105,6 +105,13 @@ const menu = [
         img: "./images/grill-saute/guvecmantarli.jpg"
     },
     {
+        id:15,
+        title:'Kalamar Güveç',
+        category: 'grill',
+        price: 130,
+        img: "./images/grill-saute/squid.jpg"
+    },
+    {
         id:16,
         title:'Sigara Böreği',
         category: 'starters',
@@ -1346,9 +1353,9 @@ function getHotDrinks() {
     });
 }
 //change language
-function urlHandler(value) {
-    window.location.assign(`${value}`);
-}
+// function urlHandler(value) {
+//     window.location.assign(`${value}`);
+// }
 //SCROLL
 const gridItem = document.querySelectorAll('.grid-item');
 const categoriesContainer = document.querySelector('.categories-container');

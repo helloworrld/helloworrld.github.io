@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
+    background-color: #000;
 }
 
 
@@ -27,20 +28,23 @@ body {
                 text-align: center;
                 font-size: 3rem;
                 font-family: 'Updock', cursive;
-                color: #fec524;
+                color: #004c94;
             }
         }
         .lang-menu {
-            width: 40px;
+            width: 75px; //40px
             position: absolute;
             right: 10px;
             top: 70px;
             font-size: .8rem;
             font-weight: bold;
+            background-color: #004c94;
+            padding: 5px;
+            border-radius: 10px;
             .selected-lang {
                 cursor: pointer;
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-around;
                 align-items: center;
                 color: #fff;
                 &::before {
@@ -49,6 +53,14 @@ body {
                     width: 20px;
                     height: 13px;
                     background-image: url('../images/tr.png');
+                }
+                .angle-down {
+                    font-weight: bold;
+                    font-size: 1rem;
+                    padding-left: 5px;
+                }
+                .selected {
+                    padding-left: 3px;
                 }
             }
             ul {
@@ -123,7 +135,7 @@ body {
             padding: 30px 10px;
             .grid-item {
                 text-align: center;
-                border: 2px solid #fec524;
+                border: 3px solid #004c94;
                 border-radius: 5px;
                 color: #fff;
                 font-size: 1.4rem;
@@ -194,10 +206,6 @@ body {
         padding: 72px 0;
         background-color: #0a0908;
         color: #fff;
-        h4 {
-            text-align: center;
-            color: #fec524;
-        }
         ul {
             padding-top: 30px;
             display: flex;
@@ -208,9 +216,8 @@ body {
                 list-style-type: none;
                 & a {
                     text-decoration: none;
-                    color: #fec524;
+                    color: #004c94;
                     margin: 20px;
-
                     & i {
                         margin-right: 5px;
                     }
@@ -232,7 +239,7 @@ body {
     padding: 20px 10px;
     .flex-container {
         display: flex;
-        border: 3px solid #fec524;
+        border: 3px solid #004c94;
         border-radius: 15px;
         .menu-info {
             width: 410px;
@@ -241,8 +248,8 @@ body {
             display: flex;
             justify-content: space-between;
             padding-bottom: 5px;
-            border-bottom: 2px solid #fec524;
-            color: #fec524;
+            border-bottom: 2px solid #004c94;
+            color: #fff;
             margin-top: 5px;
             h4 {
                 font-size: 1.3rem;

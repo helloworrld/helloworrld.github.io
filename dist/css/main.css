@@ -9,7 +9,8 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+  background-color: #000; }
 
 .container {
   width: 1140px;
@@ -23,18 +24,21 @@ body {
         text-align: center;
         font-size: 3rem;
         font-family: 'Updock', cursive;
-        color: #fec524; }
+        color: #004c94; }
     .container .categories .lang-menu {
-      width: 40px;
+      width: 75px;
       position: absolute;
       right: 10px;
       top: 70px;
       font-size: .8rem;
-      font-weight: bold; }
+      font-weight: bold;
+      background-color: #004c94;
+      padding: 5px;
+      border-radius: 10px; }
       .container .categories .lang-menu .selected-lang {
         cursor: pointer;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         color: #fff; }
         .container .categories .lang-menu .selected-lang::before {
@@ -43,6 +47,12 @@ body {
           width: 20px;
           height: 13px;
           background-image: url("../images/tr.png"); }
+        .container .categories .lang-menu .selected-lang .angle-down {
+          font-weight: bold;
+          font-size: 1rem;
+          padding-left: 5px; }
+        .container .categories .lang-menu .selected-lang .selected {
+          padding-left: 3px; }
       .container .categories .lang-menu ul {
         background-color: #eee;
         border: 1px solid #000;
@@ -116,7 +126,7 @@ body {
       padding: 30px 10px; }
       .container .categories .categories-container .grid-item {
         text-align: center;
-        border: 2px solid #fec524;
+        border: 3px solid #004c94;
         border-radius: 5px;
         color: #fff;
         font-size: 1.4rem;
@@ -198,9 +208,6 @@ body {
     padding: 72px 0;
     background-color: #0a0908;
     color: #fff; }
-    .container footer h4 {
-      text-align: center;
-      color: #fec524; }
     .container footer ul {
       padding-top: 30px;
       display: flex;
@@ -211,7 +218,7 @@ body {
         list-style-type: none; }
         .container footer ul li a {
           text-decoration: none;
-          color: #fec524;
+          color: #004c94;
           margin: 20px; }
           .container footer ul li a i {
             margin-right: 5px; }
@@ -225,7 +232,7 @@ body {
   padding: 20px 10px; }
   .menu-items .flex-container {
     display: flex;
-    border: 3px solid #fec524;
+    border: 3px solid #004c94;
     border-radius: 15px; }
     .menu-items .flex-container .menu-info {
       width: 410px; }
@@ -233,8 +240,8 @@ body {
       display: flex;
       justify-content: space-between;
       padding-bottom: 5px;
-      border-bottom: 2px solid #fec524;
-      color: #fec524;
+      border-bottom: 2px solid #004c94;
+      color: #fff;
       margin-top: 5px; }
       .menu-items .flex-container .menu-title h4 {
         font-size: 1.3rem; }
