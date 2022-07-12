@@ -227,49 +227,49 @@ const menu = [
         id:29,
         title:'Omlet Mantarlı',
         category: 'omlette',
-        price: 45,
+        price: 60,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:30,
         title:'Omlet Peynirli',
         category: 'omlette',
-        price: 45,
+        price: 60,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:31,
         title:'Omlet Domatesli',
         category: 'omlette',
-        price: 45,
+        price: 60,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:32,
         title:'Omlet Patatesli',
         category: 'omlette',
-        price: 45,
+        price: 60,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:33,
         title:'Omlet Karışık',
         category: 'omlette',
-        price: 45,
+        price: 70,
         img: "./images/omlette/omlet.jpg"
     },
     {
         id:34,
         title:'Domates Soslu Makarna',
         category: 'pasta',
-        price: 55,
+        price: 60,
         img: "./images/pasta/domatessoslumakarna.jpg"
     },
     {
         id:35,
         title:'Kıyma Soslu Makarna',
         category: 'pasta',
-        price: 55,
+        price: 75,
         img: "./images/pasta/kiymasoslumakarna.jpg"
     },
     {
@@ -297,7 +297,7 @@ const menu = [
         id:39,
         title:'Peynirli Salata',
         category: 'salad',
-        price: 40,
+        price: 45,
         img: "./images/salad/peynirlisalata.jpg"
     },
     {
@@ -309,7 +309,7 @@ const menu = [
     },
     {
         id:40,
-        title:'Puding',
+        title:'Sütlaç',
         category: 'delight',
         price: 25,
         img: "./images/sweets/puding.jpg"
@@ -360,70 +360,70 @@ const menu = [
         id:46,
         title:'Efes Fıçı',
         category: 'beers',
-        price: 40,
+        price: 45,
         img: "./images/beers/efesfici.jpg"
     },
     {
         id:47,
         title:'Efes Malt',
         category: 'beers',
-        price: 45,
+        price: 60,
         img: "./images/beers/efesmalt.jpg"
     },
     {
         id:47,
         title:'Efes Özel Seri',
         category: 'beers',
-        price: 45,
+        price: 60,
         img: "./images/beers/efesozelseri.jpg"
     },
     {
         id:47,
         title:'Efes Xtra',
         category: 'beers',
-        price: 50,
+        price: 80,
         img: "./images/beers/efesxtra.jpg"
     },
     {
         id:47,
         title:'Tuborg',
         category: 'beers',
-        price: 45,
+        price: 60,
         img: "./images/beers/tuborg.jpg"
     },
     {
         id:47,
         title:'Tuborg Amber',
         category: 'beers',
-        price: 50,
+        price: 80,
         img: "./images/beers/tuborgamber.jpg"
     },
     {
         id:47,
         title:'Tuborg Filtresiz',
         category: 'beers',
-        price: 50,
+        price: 80,
         img: "./images/beers/tuborgfiltresiz.jpg"
     },
     {
         id:47,
         title:'Bomonti Filtresiz',
         category: 'beers',
-        price: 50,
+        price: 80,
         img: "./images/beers/bomontifiltresiz.jpg"
     },
     {
         id:47,
         title:'Bomonti Filtresiz Ipa',
         category: 'beers',
-        price: 50,
+        price: 80,
         img: "./images/beers/bomontiipa.jpg"
     },
     {
         id:47,
         title:'Bud',
         category: 'beers',
-        price: 50,
+        price: 80,
         img: "./images/beers/bud.jpg"
     },
     {
@@ -437,14 +437,14 @@ const menu = [
         id:47,
         title:'Corona',
         category: 'beers',
-        price: 50,
+        price: 80,
         img: "./images/beers/corona.jpg"
     },
     {
         id:47,
         title:'Blanc',
         category: 'beers',
-        price: 75,
+        price: 80,
         img: "./images/beers/blanc.jpg"
     },
     {
@@ -507,7 +507,7 @@ const menu = [
         id:51,
         title:'Weihenstephaner Hefe weIssbier',
         category: 'beers',
-        price: 75,
+        price: 85,
         img: "./images/beers/weihenstephaner-hefe.png"
     },
     {
