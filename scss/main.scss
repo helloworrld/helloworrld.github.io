@@ -32,12 +32,14 @@ body {
             }
         }
         .lang-menu {
-            width: 85px; //40px
+            width: 75px; //40px
             position: absolute;
             right: 10px;
             top: 70px;
             font-size: .8rem;
             font-weight: bold;
+            background-color: #004c94;
+            padding: 5px;
             border-radius: 10px;
             .selected-lang {
                 cursor: pointer;
@@ -45,15 +47,20 @@ body {
                 justify-content: space-around;
                 align-items: center;
                 color: #fff;
-                padding: 8px 12px;
-                background-color: #004c94;
-                border-radius: 15px;
                 &::before {
                     content: '';
                     display: block;
                     width: 20px;
                     height: 13px;
                     background-image: url('../images/tr.png');
+                }
+                .angle-down {
+                    font-weight: bold;
+                    font-size: 1rem;
+                    padding-left: 5px;
+                }
+                .selected {
+                    padding-left: 3px;
                 }
             }
 
@@ -131,7 +138,7 @@ body {
                 text-align: center;
                 border: 3px solid #004c94;
                 border-radius: 5px;
-                color: #000;
+                color: #a14;
                 font-size: 1.4rem;
                 cursor: pointer;
                 text-shadow: 1px 2px #000;
@@ -212,7 +219,6 @@ body {
                     text-decoration: none;
                     color: #004c94;
                     margin: 20px;
-                    font-size: 1.1rem;
                     & i {
                         margin-right: 5px;
                     }

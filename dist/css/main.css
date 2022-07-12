@@ -26,28 +26,33 @@ body {
         font-family: 'Updock', cursive;
         color: #004c94; }
     .container .categories .lang-menu {
-      width: 85px;
+      width: 75px;
       position: absolute;
       right: 10px;
       top: 70px;
       font-size: .8rem;
       font-weight: bold;
+      background-color: #004c94;
+      padding: 5px;
       border-radius: 10px; }
       .container .categories .lang-menu .selected-lang {
         cursor: pointer;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        color: #fff;
-        padding: 8px 12px;
-        background-color: #004c94;
-        border-radius: 15px; }
+        color: #fff; }
         .container .categories .lang-menu .selected-lang::before {
           content: '';
           display: block;
           width: 20px;
           height: 13px;
           background-image: url("../images/tr.png"); }
+        .container .categories .lang-menu .selected-lang .angle-down {
+          font-weight: bold;
+          font-size: 1rem;
+          padding-left: 5px; }
+        .container .categories .lang-menu .selected-lang .selected {
+          padding-left: 3px; }
       .container .categories .lang-menu ul {
         background-color: #eee;
         border: 1px solid #000;
@@ -123,7 +128,7 @@ body {
         text-align: center;
         border: 3px solid #004c94;
         border-radius: 5px;
-        color: #000;
+        color: #a14;
         font-size: 1.4rem;
         cursor: pointer;
         text-shadow: 1px 2px #000;
@@ -214,8 +219,7 @@ body {
         .container footer ul li a {
           text-decoration: none;
           color: #004c94;
-          margin: 20px;
-          font-size: 1.1rem; }
+          margin: 20px; }
           .container footer ul li a i {
             margin-right: 5px; }
 
