@@ -106,7 +106,7 @@ const menu = [
     },
     {
         id:15,
-        title:'Kalamar Güveç',
+        title:'кальмары рагу',
         category: 'grill',
         price: 130,
         img: "./images/grill-saute/squid.jpg"

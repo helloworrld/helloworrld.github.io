@@ -127,7 +127,7 @@ const menu = [
     },
     {
         id:18,
-        title:'Stuffed Eggplant',
+        title:'Stuffed Eggplant with Olive Oil',
         category: 'starters',
         price: 55,
         img: "./images/starters/imambayildi.jpg"
@@ -162,7 +162,7 @@ const menu = [
     },
     {
         id:24,
-        title:'Yoghurt',
+        title:'Garlic Yogurt Dip',
         category: 'starters',
         price: 25,
         img: "./images/starters/haydari.jpg"
@@ -351,7 +351,7 @@ const menu = [
     },
     {
         id:45,
-        title:'Meyve',
+        title:'Season Fruit',
         category: 'delight',
         price: 35,
         img: "./images/sweets/sezonmeyve.jpg"
@@ -848,7 +848,7 @@ const menu = [
     },
     {
         id:95,
-        title:'Soda',
+        title:'Mineral Water',
         category: 'colddrinks',
         price: 15,
         img: "./images/softdrinks/madensuyu.jpg"
